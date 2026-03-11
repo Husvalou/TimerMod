@@ -1,4 +1,4 @@
-# Timer Mod for Minecraft 1.8.9
+# Timer Mod for Minecraft 1.8.9 /!\ Known bug crash if going in solo usage only for multiplayer. /!\
 
 A standalone Minecraft Forge mod that adds a timer functionality to control game speed.
 
