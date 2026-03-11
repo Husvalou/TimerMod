@@ -33709,13 +33709,13 @@ FOUND CONSTR method com/example/timermod/TimerModule/TimerModule ()V com/example
 [method, com/example/timermod/TimerModule/toggle, ()V]
 [method, com/example/timermod/TimerModule/resetTimer, ()V]
 [method, com/example/timermod/TimerModule/onUpdate, ()V]
-Rename field net/minecraft/client/Minecraft/currentScreen[6384,6397]::currentScreen->field_71462_r
+Rename field net/minecraft/client/Minecraft/currentScreen[6434,6447]::currentScreen->field_71462_r
 [method, com/example/timermod/TimerModule/resetTimer, ()V]
 [method, com/example/timermod/mixin/IAccessorMinecraft/getTimer, ()Lnet/minecraft/util/Timer;]
-Rename field net/minecraft/util/Timer/timerSpeed[6523,6533]::timerSpeed->field_74278_d
+Rename field net/minecraft/util/Timer/timerSpeed[6573,6583]::timerSpeed->field_74278_d
 [method, com/example/timermod/TimerModule/resetTimer, ()V]
 [method, com/example/timermod/mixin/IAccessorMinecraft/getTimer, ()Lnet/minecraft/util/Timer;]
-Rename field net/minecraft/util/Timer/timerSpeed[6637,6647]::timerSpeed->field_74278_d
+Rename field net/minecraft/util/Timer/timerSpeed[6687,6697]::timerSpeed->field_74278_d
 [method, com/example/timermod/TimerModule/increaseSpeed, ()V]
 [method, java/lang/Math/min, (DD)D]
 [method, java/lang/Math/round, (D)J]

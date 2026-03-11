@@ -85,9 +85,9 @@ public class TimerModule {
                             waitingForGuiKey = false;
                         }
                     } else {
-                        // Toggle key (only if not KEY_NONE)
+                        // Toggle key (only if not KEY_NONE and only when in-game)
                         int currentToggleKey = Config.getToggleKey();
-                        if (currentToggleKey != Config.KEY_NONE) {
+                        if (currentToggleKey != Config.KEY_NONE && mc.currentScreen == null) {
                             boolean isToggleDown = Keyboard.isKeyDown(currentToggleKey);
                             if (isToggleDown && !wasToggleDown) {
                                 toggle();
