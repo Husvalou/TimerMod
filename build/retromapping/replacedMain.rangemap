@@ -718,134 +718,134 @@ Class Start: com.example.timermod.TimerModule
       @|com\example\timermod\TimerModule.java|1094|1110|startInputThread|method|com.example.timermod.TimerModule|startInputThread|()V
       @|com\example\timermod\TimerModule.java|1123|1134|inputThread|field|com.example.timermod.TimerModule|inputThread
       @|com\example\timermod\TimerModule.java|1141|1147|Thread|class|java.lang.Thread
-      @|com\example\timermod\TimerModule.java|5701|5712|inputThread|field|com.example.timermod.TimerModule|inputThread
-      @|com\example\timermod\TimerModule.java|5713|5722|setDaemon|method|java.lang.Thread|setDaemon|(Z)V
-      @|com\example\timermod\TimerModule.java|5738|5749|inputThread|field|com.example.timermod.TimerModule|inputThread
-      @|com\example\timermod\TimerModule.java|5750|5757|setName|method|java.lang.Thread|setName|(Ljava/lang/String;)V
-      @|com\example\timermod\TimerModule.java|5787|5798|inputThread|field|com.example.timermod.TimerModule|inputThread
-      @|com\example\timermod\TimerModule.java|5799|5804|start|method|java.lang.Thread|start|()V
+      @|com\example\timermod\TimerModule.java|5935|5946|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|5947|5956|setDaemon|method|java.lang.Thread|setDaemon|(Z)V
+      @|com\example\timermod\TimerModule.java|5972|5983|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|5984|5991|setName|method|java.lang.Thread|setName|(Ljava/lang/String;)V
+      @|com\example\timermod\TimerModule.java|6021|6032|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|6033|6038|start|method|java.lang.Thread|start|()V
    Method End: startInputThread()V
    Method Start: stop()V
-      @|com\example\timermod\TimerModule.java|5831|5835|stop|method|com.example.timermod.TimerModule|stop|()V
-      @|com\example\timermod\TimerModule.java|5848|5855|running|field|com.example.timermod.TimerModule|running
-      @|com\example\timermod\TimerModule.java|5877|5888|inputThread|field|com.example.timermod.TimerModule|inputThread
-      @|com\example\timermod\TimerModule.java|5912|5923|inputThread|field|com.example.timermod.TimerModule|inputThread
-      @|com\example\timermod\TimerModule.java|5924|5933|interrupt|method|java.lang.Thread|interrupt|()V
+      @|com\example\timermod\TimerModule.java|6065|6069|stop|method|com.example.timermod.TimerModule|stop|()V
+      @|com\example\timermod\TimerModule.java|6082|6089|running|field|com.example.timermod.TimerModule|running
+      @|com\example\timermod\TimerModule.java|6111|6122|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|6146|6157|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|6158|6167|interrupt|method|java.lang.Thread|interrupt|()V
    Method End: stop()V
    Method Start: toggle()V
-      @|com\example\timermod\TimerModule.java|5970|5976|toggle|method|com.example.timermod.TimerModule|toggle|()V
-      @|com\example\timermod\TimerModule.java|5989|5996|enabled|field|com.example.timermod.TimerModule|enabled
-      @|com\example\timermod\TimerModule.java|6000|6007|enabled|field|com.example.timermod.TimerModule|enabled
-      @|com\example\timermod\TimerModule.java|6022|6029|enabled|field|com.example.timermod.TimerModule|enabled
-      @|com\example\timermod\TimerModule.java|6045|6055|resetTimer|method|com.example.timermod.TimerModule|resetTimer|()V
+      @|com\example\timermod\TimerModule.java|6204|6210|toggle|method|com.example.timermod.TimerModule|toggle|()V
+      @|com\example\timermod\TimerModule.java|6223|6230|enabled|field|com.example.timermod.TimerModule|enabled
+      @|com\example\timermod\TimerModule.java|6234|6241|enabled|field|com.example.timermod.TimerModule|enabled
+      @|com\example\timermod\TimerModule.java|6256|6263|enabled|field|com.example.timermod.TimerModule|enabled
+      @|com\example\timermod\TimerModule.java|6279|6289|resetTimer|method|com.example.timermod.TimerModule|resetTimer|()V
    Method End: toggle()V
    Method Start: onUpdate()V
-      @|com\example\timermod\TimerModule.java|6092|6100|onUpdate|method|com.example.timermod.TimerModule|onUpdate|()V
-      @|com\example\timermod\TimerModule.java|6118|6125|enabled|field|com.example.timermod.TimerModule|enabled
-      @|com\example\timermod\TimerModule.java|6147|6149|mc|field|com.example.timermod.TimerModule|mc
-      @|com\example\timermod\TimerModule.java|6150|6163|currentScreen|field|net.minecraft.client.Minecraft|currentScreen
-      @|com\example\timermod\TimerModule.java|6175|6184|GuiConfig|class|com.example.timermod.GuiConfig
-      @|com\example\timermod\TimerModule.java|6200|6210|resetTimer|method|com.example.timermod.TimerModule|resetTimer|()V
-      @|com\example\timermod\TimerModule.java|6254|6272|IAccessorMinecraft|class|com.example.timermod.mixin.IAccessorMinecraft
-      @|com\example\timermod\TimerModule.java|6274|6276|mc|field|com.example.timermod.TimerModule|mc
-      @|com\example\timermod\TimerModule.java|6278|6286|getTimer|method|com.example.timermod.mixin.IAccessorMinecraft|getTimer|()Lnet/minecraft/util/Timer;
-      @|com\example\timermod\TimerModule.java|6289|6299|timerSpeed|field|net.minecraft.util.Timer|timerSpeed
-      @|com\example\timermod\TimerModule.java|6310|6315|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6326|6334|onUpdate|method|com.example.timermod.TimerModule|onUpdate|()V
+      @|com\example\timermod\TimerModule.java|6352|6359|enabled|field|com.example.timermod.TimerModule|enabled
+      @|com\example\timermod\TimerModule.java|6381|6383|mc|field|com.example.timermod.TimerModule|mc
+      @|com\example\timermod\TimerModule.java|6384|6397|currentScreen|field|net.minecraft.client.Minecraft|currentScreen
+      @|com\example\timermod\TimerModule.java|6409|6418|GuiConfig|class|com.example.timermod.GuiConfig
+      @|com\example\timermod\TimerModule.java|6434|6444|resetTimer|method|com.example.timermod.TimerModule|resetTimer|()V
+      @|com\example\timermod\TimerModule.java|6488|6506|IAccessorMinecraft|class|com.example.timermod.mixin.IAccessorMinecraft
+      @|com\example\timermod\TimerModule.java|6508|6510|mc|field|com.example.timermod.TimerModule|mc
+      @|com\example\timermod\TimerModule.java|6512|6520|getTimer|method|com.example.timermod.mixin.IAccessorMinecraft|getTimer|()Lnet/minecraft/util/Timer;
+      @|com\example\timermod\TimerModule.java|6523|6533|timerSpeed|field|net.minecraft.util.Timer|timerSpeed
+      @|com\example\timermod\TimerModule.java|6544|6549|speed|field|com.example.timermod.TimerModule|speed
    Method End: onUpdate()V
    Method Start: resetTimer()V
-      @|com\example\timermod\TimerModule.java|6340|6350|resetTimer|method|com.example.timermod.TimerModule|resetTimer|()V
-      @|com\example\timermod\TimerModule.java|6365|6383|IAccessorMinecraft|class|com.example.timermod.mixin.IAccessorMinecraft
-      @|com\example\timermod\TimerModule.java|6385|6387|mc|field|com.example.timermod.TimerModule|mc
-      @|com\example\timermod\TimerModule.java|6389|6397|getTimer|method|com.example.timermod.mixin.IAccessorMinecraft|getTimer|()Lnet/minecraft/util/Timer;
-      @|com\example\timermod\TimerModule.java|6400|6410|timerSpeed|field|net.minecraft.util.Timer|timerSpeed
+      @|com\example\timermod\TimerModule.java|6574|6584|resetTimer|method|com.example.timermod.TimerModule|resetTimer|()V
+      @|com\example\timermod\TimerModule.java|6599|6617|IAccessorMinecraft|class|com.example.timermod.mixin.IAccessorMinecraft
+      @|com\example\timermod\TimerModule.java|6619|6621|mc|field|com.example.timermod.TimerModule|mc
+      @|com\example\timermod\TimerModule.java|6623|6631|getTimer|method|com.example.timermod.mixin.IAccessorMinecraft|getTimer|()Lnet/minecraft/util/Timer;
+      @|com\example\timermod\TimerModule.java|6634|6644|timerSpeed|field|net.minecraft.util.Timer|timerSpeed
    Method End: resetTimer()V
    Method Start: increaseSpeed()V
-      @|com\example\timermod\TimerModule.java|6442|6455|increaseSpeed|method|com.example.timermod.TimerModule|increaseSpeed|()V
-      @|com\example\timermod\TimerModule.java|6468|6473|speed|field|com.example.timermod.TimerModule|speed
-      @|com\example\timermod\TimerModule.java|6476|6480|Math|class|java.lang.Math
-      @|com\example\timermod\TimerModule.java|6481|6484|min|method|java.lang.Math|min|(DD)D
-      @|com\example\timermod\TimerModule.java|6485|6490|speed|field|com.example.timermod.TimerModule|speed
-      @|com\example\timermod\TimerModule.java|6493|6502|increment|field|com.example.timermod.TimerModule|increment
-      @|com\example\timermod\TimerModule.java|6504|6512|maxSpeed|field|com.example.timermod.TimerModule|maxSpeed
-      @|com\example\timermod\TimerModule.java|6523|6528|speed|field|com.example.timermod.TimerModule|speed
-      @|com\example\timermod\TimerModule.java|6531|6535|Math|class|java.lang.Math
-      @|com\example\timermod\TimerModule.java|6536|6541|round|method|java.lang.Math|round|(D)J
-      @|com\example\timermod\TimerModule.java|6542|6547|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6676|6689|increaseSpeed|method|com.example.timermod.TimerModule|increaseSpeed|()V
+      @|com\example\timermod\TimerModule.java|6702|6707|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6710|6714|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|6715|6718|min|method|java.lang.Math|min|(DD)D
+      @|com\example\timermod\TimerModule.java|6719|6724|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6727|6736|increment|field|com.example.timermod.TimerModule|increment
+      @|com\example\timermod\TimerModule.java|6738|6746|maxSpeed|field|com.example.timermod.TimerModule|maxSpeed
+      @|com\example\timermod\TimerModule.java|6757|6762|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6765|6769|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|6770|6775|round|method|java.lang.Math|round|(D)J
+      @|com\example\timermod\TimerModule.java|6776|6781|speed|field|com.example.timermod.TimerModule|speed
    Method End: increaseSpeed()V
    Method Start: decreaseSpeed()V
-      @|com\example\timermod\TimerModule.java|6589|6602|decreaseSpeed|method|com.example.timermod.TimerModule|decreaseSpeed|()V
-      @|com\example\timermod\TimerModule.java|6615|6620|speed|field|com.example.timermod.TimerModule|speed
-      @|com\example\timermod\TimerModule.java|6623|6627|Math|class|java.lang.Math
-      @|com\example\timermod\TimerModule.java|6628|6631|max|method|java.lang.Math|max|(DD)D
-      @|com\example\timermod\TimerModule.java|6632|6637|speed|field|com.example.timermod.TimerModule|speed
-      @|com\example\timermod\TimerModule.java|6640|6649|increment|field|com.example.timermod.TimerModule|increment
-      @|com\example\timermod\TimerModule.java|6651|6659|minSpeed|field|com.example.timermod.TimerModule|minSpeed
-      @|com\example\timermod\TimerModule.java|6670|6675|speed|field|com.example.timermod.TimerModule|speed
-      @|com\example\timermod\TimerModule.java|6678|6682|Math|class|java.lang.Math
-      @|com\example\timermod\TimerModule.java|6683|6688|round|method|java.lang.Math|round|(D)J
-      @|com\example\timermod\TimerModule.java|6689|6694|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6823|6836|decreaseSpeed|method|com.example.timermod.TimerModule|decreaseSpeed|()V
+      @|com\example\timermod\TimerModule.java|6849|6854|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6857|6861|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|6862|6865|max|method|java.lang.Math|max|(DD)D
+      @|com\example\timermod\TimerModule.java|6866|6871|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6874|6883|increment|field|com.example.timermod.TimerModule|increment
+      @|com\example\timermod\TimerModule.java|6885|6893|minSpeed|field|com.example.timermod.TimerModule|minSpeed
+      @|com\example\timermod\TimerModule.java|6904|6909|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6912|6916|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|6917|6922|round|method|java.lang.Math|round|(D)J
+      @|com\example\timermod\TimerModule.java|6923|6928|speed|field|com.example.timermod.TimerModule|speed
    Method End: decreaseSpeed()V
    Method Start: isEnabled()Z
-      @|com\example\timermod\TimerModule.java|6739|6748|isEnabled|method|com.example.timermod.TimerModule|isEnabled|()Z
-      @|com\example\timermod\TimerModule.java|6768|6775|enabled|field|com.example.timermod.TimerModule|enabled
+      @|com\example\timermod\TimerModule.java|6973|6982|isEnabled|method|com.example.timermod.TimerModule|isEnabled|()Z
+      @|com\example\timermod\TimerModule.java|7002|7009|enabled|field|com.example.timermod.TimerModule|enabled
    Method End: isEnabled()Z
    Method Start: getSpeed()D
-      @|com\example\timermod\TimerModule.java|6802|6810|getSpeed|method|com.example.timermod.TimerModule|getSpeed|()D
-      @|com\example\timermod\TimerModule.java|6830|6835|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|7036|7044|getSpeed|method|com.example.timermod.TimerModule|getSpeed|()D
+      @|com\example\timermod\TimerModule.java|7064|7069|speed|field|com.example.timermod.TimerModule|speed
    Method End: getSpeed()D
    Method Start: setSpeed(D)V
-      @|com\example\timermod\TimerModule.java|6860|6868|setSpeed|method|com.example.timermod.TimerModule|setSpeed|(D)V
-      @|com\example\timermod\TimerModule.java|6876|6881|speed|param|com.example.timermod.TimerModule|setSpeed|(D)V|speed|0
-      @|com\example\timermod\TimerModule.java|6898|6903|speed|field|com.example.timermod.TimerModule|speed
-      @|com\example\timermod\TimerModule.java|6906|6910|Math|class|java.lang.Math
-      @|com\example\timermod\TimerModule.java|6911|6914|max|method|java.lang.Math|max|(DD)D
-      @|com\example\timermod\TimerModule.java|6915|6923|minSpeed|field|com.example.timermod.TimerModule|minSpeed
-      @|com\example\timermod\TimerModule.java|6925|6929|Math|class|java.lang.Math
-      @|com\example\timermod\TimerModule.java|6930|6933|min|method|java.lang.Math|min|(DD)D
-      @|com\example\timermod\TimerModule.java|6934|6942|maxSpeed|field|com.example.timermod.TimerModule|maxSpeed
-      @|com\example\timermod\TimerModule.java|6944|6949|speed|param|com.example.timermod.TimerModule|setSpeed|(D)V|speed|0
-      @|com\example\timermod\TimerModule.java|6961|6967|Config|class|com.example.timermod.Config
-      @|com\example\timermod\TimerModule.java|6968|6976|setSpeed|method|com.example.timermod.Config|setSpeed|(D)V
-      @|com\example\timermod\TimerModule.java|6982|6987|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|7094|7102|setSpeed|method|com.example.timermod.TimerModule|setSpeed|(D)V
+      @|com\example\timermod\TimerModule.java|7110|7115|speed|param|com.example.timermod.TimerModule|setSpeed|(D)V|speed|0
+      @|com\example\timermod\TimerModule.java|7132|7137|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|7140|7144|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|7145|7148|max|method|java.lang.Math|max|(DD)D
+      @|com\example\timermod\TimerModule.java|7149|7157|minSpeed|field|com.example.timermod.TimerModule|minSpeed
+      @|com\example\timermod\TimerModule.java|7159|7163|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|7164|7167|min|method|java.lang.Math|min|(DD)D
+      @|com\example\timermod\TimerModule.java|7168|7176|maxSpeed|field|com.example.timermod.TimerModule|maxSpeed
+      @|com\example\timermod\TimerModule.java|7178|7183|speed|param|com.example.timermod.TimerModule|setSpeed|(D)V|speed|0
+      @|com\example\timermod\TimerModule.java|7195|7201|Config|class|com.example.timermod.Config
+      @|com\example\timermod\TimerModule.java|7202|7210|setSpeed|method|com.example.timermod.Config|setSpeed|(D)V
+      @|com\example\timermod\TimerModule.java|7216|7221|speed|field|com.example.timermod.TimerModule|speed
    Method End: setSpeed(D)V
    Method Start: getMinSpeed()D
-      @|com\example\timermod\TimerModule.java|7033|7044|getMinSpeed|method|com.example.timermod.TimerModule|getMinSpeed|()D
-      @|com\example\timermod\TimerModule.java|7064|7072|minSpeed|field|com.example.timermod.TimerModule|minSpeed
+      @|com\example\timermod\TimerModule.java|7267|7278|getMinSpeed|method|com.example.timermod.TimerModule|getMinSpeed|()D
+      @|com\example\timermod\TimerModule.java|7298|7306|minSpeed|field|com.example.timermod.TimerModule|minSpeed
    Method End: getMinSpeed()D
    Method Start: getMaxSpeed()D
-      @|com\example\timermod\TimerModule.java|7099|7110|getMaxSpeed|method|com.example.timermod.TimerModule|getMaxSpeed|()D
-      @|com\example\timermod\TimerModule.java|7130|7138|maxSpeed|field|com.example.timermod.TimerModule|maxSpeed
+      @|com\example\timermod\TimerModule.java|7333|7344|getMaxSpeed|method|com.example.timermod.TimerModule|getMaxSpeed|()D
+      @|com\example\timermod\TimerModule.java|7364|7372|maxSpeed|field|com.example.timermod.TimerModule|maxSpeed
    Method End: getMaxSpeed()D
    Method Start: getIncrement()D
-      @|com\example\timermod\TimerModule.java|7165|7177|getIncrement|method|com.example.timermod.TimerModule|getIncrement|()D
-      @|com\example\timermod\TimerModule.java|7197|7206|increment|field|com.example.timermod.TimerModule|increment
+      @|com\example\timermod\TimerModule.java|7399|7411|getIncrement|method|com.example.timermod.TimerModule|getIncrement|()D
+      @|com\example\timermod\TimerModule.java|7431|7440|increment|field|com.example.timermod.TimerModule|increment
    Method End: getIncrement()D
    Method Start: setGuiConfig(Lcom/example/timermod/GuiConfig;)V
-      @|com\example\timermod\TimerModule.java|7231|7243|setGuiConfig|method|com.example.timermod.TimerModule|setGuiConfig|(Lcom/example/timermod/GuiConfig;)V
-      @|com\example\timermod\TimerModule.java|7244|7253|GuiConfig|class|com.example.timermod.GuiConfig
-      @|com\example\timermod\TimerModule.java|7254|7257|gui|param|com.example.timermod.TimerModule|setGuiConfig|(Lcom/example/timermod/GuiConfig;)V|gui|0
-      @|com\example\timermod\TimerModule.java|7274|7283|guiConfig|field|com.example.timermod.TimerModule|guiConfig
-      @|com\example\timermod\TimerModule.java|7286|7289|gui|param|com.example.timermod.TimerModule|setGuiConfig|(Lcom/example/timermod/GuiConfig;)V|gui|0
+      @|com\example\timermod\TimerModule.java|7465|7477|setGuiConfig|method|com.example.timermod.TimerModule|setGuiConfig|(Lcom/example/timermod/GuiConfig;)V
+      @|com\example\timermod\TimerModule.java|7478|7487|GuiConfig|class|com.example.timermod.GuiConfig
+      @|com\example\timermod\TimerModule.java|7488|7491|gui|param|com.example.timermod.TimerModule|setGuiConfig|(Lcom/example/timermod/GuiConfig;)V|gui|0
+      @|com\example\timermod\TimerModule.java|7508|7517|guiConfig|field|com.example.timermod.TimerModule|guiConfig
+      @|com\example\timermod\TimerModule.java|7520|7523|gui|param|com.example.timermod.TimerModule|setGuiConfig|(Lcom/example/timermod/GuiConfig;)V|gui|0
    Method End: setGuiConfig(Lcom/example/timermod/GuiConfig;)V
    Method Start: setWaitingForToggleKey(Z)V
-      @|com\example\timermod\TimerModule.java|7318|7340|setWaitingForToggleKey|method|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V
-      @|com\example\timermod\TimerModule.java|7349|7356|waiting|param|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V|waiting|0
-      @|com\example\timermod\TimerModule.java|7373|7392|waitingForToggleKey|field|com.example.timermod.TimerModule|waitingForToggleKey
-      @|com\example\timermod\TimerModule.java|7395|7402|waiting|param|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V|waiting|0
+      @|com\example\timermod\TimerModule.java|7552|7574|setWaitingForToggleKey|method|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V
+      @|com\example\timermod\TimerModule.java|7583|7590|waiting|param|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V|waiting|0
+      @|com\example\timermod\TimerModule.java|7607|7626|waitingForToggleKey|field|com.example.timermod.TimerModule|waitingForToggleKey
+      @|com\example\timermod\TimerModule.java|7629|7636|waiting|param|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V|waiting|0
    Method End: setWaitingForToggleKey(Z)V
    Method Start: setWaitingForGuiKey(Z)V
-      @|com\example\timermod\TimerModule.java|7431|7450|setWaitingForGuiKey|method|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V
-      @|com\example\timermod\TimerModule.java|7459|7466|waiting|param|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V|waiting|0
-      @|com\example\timermod\TimerModule.java|7483|7499|waitingForGuiKey|field|com.example.timermod.TimerModule|waitingForGuiKey
-      @|com\example\timermod\TimerModule.java|7502|7509|waiting|param|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V|waiting|0
+      @|com\example\timermod\TimerModule.java|7665|7684|setWaitingForGuiKey|method|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V
+      @|com\example\timermod\TimerModule.java|7693|7700|waiting|param|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V|waiting|0
+      @|com\example\timermod\TimerModule.java|7717|7733|waitingForGuiKey|field|com.example.timermod.TimerModule|waitingForGuiKey
+      @|com\example\timermod\TimerModule.java|7736|7743|waiting|param|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V|waiting|0
    Method End: setWaitingForGuiKey(Z)V
    Method Start: isWaitingForToggleKey()Z
-      @|com\example\timermod\TimerModule.java|7541|7562|isWaitingForToggleKey|method|com.example.timermod.TimerModule|isWaitingForToggleKey|()Z
-      @|com\example\timermod\TimerModule.java|7582|7601|waitingForToggleKey|field|com.example.timermod.TimerModule|waitingForToggleKey
+      @|com\example\timermod\TimerModule.java|7775|7796|isWaitingForToggleKey|method|com.example.timermod.TimerModule|isWaitingForToggleKey|()Z
+      @|com\example\timermod\TimerModule.java|7816|7835|waitingForToggleKey|field|com.example.timermod.TimerModule|waitingForToggleKey
    Method End: isWaitingForToggleKey()Z
    Method Start: isWaitingForGuiKey()Z
-      @|com\example\timermod\TimerModule.java|7633|7651|isWaitingForGuiKey|method|com.example.timermod.TimerModule|isWaitingForGuiKey|()Z
-      @|com\example\timermod\TimerModule.java|7671|7687|waitingForGuiKey|field|com.example.timermod.TimerModule|waitingForGuiKey
+      @|com\example\timermod\TimerModule.java|7867|7885|isWaitingForGuiKey|method|com.example.timermod.TimerModule|isWaitingForGuiKey|()Z
+      @|com\example\timermod\TimerModule.java|7905|7921|waitingForGuiKey|field|com.example.timermod.TimerModule|waitingForGuiKey
    Method End: isWaitingForGuiKey()Z
 Class End  : com.example.timermod.TimerModule
 endProcessing com\example\timermod\TimerModule.java

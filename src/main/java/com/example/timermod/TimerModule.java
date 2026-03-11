@@ -95,13 +95,16 @@ public class TimerModule {
                             wasToggleDown = isToggleDown;
                         }
                         
-                        // GUI key
+                        // GUI key (only when in-game, no screens open)
                         boolean isGuiDown = Keyboard.isKeyDown(guiKey);
                         if (isGuiDown && !wasGuiDown) {
-                            mc.addScheduledTask(() -> {
-                                mc.displayGuiScreen(new GuiConfig(TimerModule.this));
-                                setGuiConfig(new GuiConfig(TimerModule.this));
-                            });
+                            // Only open GUI if no screen is currently open (in-game only)
+                            if (mc.currentScreen == null) {
+                                mc.addScheduledTask(() -> {
+                                    mc.displayGuiScreen(new GuiConfig(TimerModule.this));
+                                    setGuiConfig(new GuiConfig(TimerModule.this));
+                                });
+                            }
                         }
                         wasGuiDown = isGuiDown;
                         
