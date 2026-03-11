@@ -1,4 +1,4 @@
-# Timer Mod for Minecraft 1.8.9
+# Timer Mod for Minecraft 1.8.9 /!\ Known bug crash if going in solo usage only for multiplayer. /!\
 
 A standalone Minecraft Forge mod that adds a timer functionality to control game speed.
 
@@ -10,7 +10,8 @@ A standalone Minecraft Forge mod that adds a timer functionality to control game
 - **Auto-Save**: Speed and keybind settings are saved automatically
 - **Emergency Thread**: Works even at 0.0x speed - never get stuck!
 
-## Default Controls
+## Default Controls 
+<img width="1379" height="955" alt="image" src="https://github.com/user-attachments/assets/ec1bb8c2-65b0-4c89-9fad-f73511d8490e" />
 
 | Action | Default Key |
 |--------|-------------|
