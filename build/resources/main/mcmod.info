@@ -1,0 +1,16 @@
+[
+{
+  "modid": "timermod",
+  "name": "Timer Mod",
+  "description": "Simple timer mod for Minecraft 1.8.9 - Adjust game speed from 0x to 1x",
+  "version": "1.0.0",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Example"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

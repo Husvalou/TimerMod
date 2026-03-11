@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.7.10",
+  "package": "com.example.timermod.mixin",
+  "refmap": "mixins.timermod.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "IAccessorMinecraft"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

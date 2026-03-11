@@ -1,0 +1,19 @@
+{
+  "mappings": {
+    "com/example/timermod/mixin/IAccessorMinecraft": {
+      "timer": "field_71428_T:Lnet/minecraft/util/Timer;"
+    }
+  },
+  "data": {
+    "notch": {
+      "com/example/timermod/mixin/IAccessorMinecraft": {
+        "timer": "Y:Lavl;"
+      }
+    },
+    "searge": {
+      "com/example/timermod/mixin/IAccessorMinecraft": {
+        "timer": "field_71428_T:Lnet/minecraft/util/Timer;"
+      }
+    }
+  }
+}

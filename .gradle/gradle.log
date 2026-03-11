@@ -1,0 +1,58 @@
+This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.
+
+WARNING: You are using an unsupported version of ForgeGradle.
+Please consider upgrading to ForgeGradle 5 and helping in the efforts to get old versions working on the modern toolchain.
+See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more info on contributing.
+:deobfCompileDummyTask
+:getVersionJson
+:extractUserdev UP-TO-DATE
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:splitServerJar SKIPPED
+:mergeJars SKIPPED
+:applyBinaryPatches SKIPPED
+:deobfProvidedDummyTask
+:extractDependencyATs SKIPPED
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
+:genSrgs SKIPPED
+:deobfMcMCP SKIPPED
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava
+Potential refmap conflict. Duplicate refmap name mixins.timermod.refmap.json specified for sourceSet main, already defined for sourceSet main
+Note: SpongePowered MIXIN Annotation Processor Version=0.7.11
+Note: ObfuscationServiceMCP supports type: "searge"
+Note: ObfuscationServiceMCP supports type: "notch"
+Note: Loading searge mappings from C:\Users\NotGr\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\20\srgs\mcp-srg.srg
+Note: Loading notch mappings from C:\Users\NotGr\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\20\srgs\mcp-notch.srg
+Note: Writing refmap to C:\Users\NotGr\Desktop\TimerMod\build\tmp\compileJava\compileJava-refmap.json
+Note: Writing searge output SRGs to C:\Users\NotGr\Desktop\TimerMod\build\tmp\compileJava\mcp-srg.srg
+Note: Writing notch output SRGs to C:\Users\NotGr\Desktop\TimerMod\build\tmp\compileJava\mcp-notch.srg
+Note: Writing refmap to C:\Users\NotGr\Desktop\TimerMod\build\tmp\compileJava\compileJava-refmap.json
+Note: Writing searge output SRGs to C:\Users\NotGr\Desktop\TimerMod\build\tmp\compileJava\mcp-srg.srg
+Note: Writing notch output SRGs to C:\Users\NotGr\Desktop\TimerMod\build\tmp\compileJava\mcp-notch.srg
+:processResources UP-TO-DATE
+:classes
+:jar
+:sourceTestJava UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:reobfJar
+:extractRangemapReplacedMain
+C:\Users\NotGr\Desktop\TimerMod\build\sources\main\java
+:retromapReplacedMain
+remapping source...
+:sourceJar
+:assemble
+:check UP-TO-DATE
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.6 secs

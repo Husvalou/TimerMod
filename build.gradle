@@ -1,0 +1,63 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url = "https://files.minecraftforge.net/maven" }
+        maven { url = "https://repo.spongepowered.org/maven" }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
+        classpath 'org.spongepowered:mixingradle:0.6-SNAPSHOT'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle.forge'
+apply plugin: 'org.spongepowered.mixin'
+
+version = mod_version
+group = mod_group
+archivesBaseName = mod_archives_base_name
+
+sourceCompatibility = targetCompatibility = 1.8
+compileJava.options.encoding = 'UTF-8'
+
+minecraft {
+    version = minecraft_version + "-" + forge_version
+    runDir = "run"
+    mappings = mappings_version
+}
+
+mixin {
+    add sourceSets.main, 'mixins.timermod.refmap.json'
+}
+
+repositories {
+    mavenCentral()
+    maven { url = "https://repo.spongepowered.org/maven" }
+}
+
+dependencies {
+    compile 'org.spongepowered:mixin:0.7.11-SNAPSHOT'
+}
+
+jar {
+    manifest {
+        attributes 'FMLCorePlugin': 'com.example.timermod.MixinLoader',
+                   'FMLCorePluginContainsFMLMod': 'true'
+    }
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", minecraft_version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+        include 'mixins.timermod.json'
+        expand 'version': project.version, 'mcversion': minecraft_version
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+        exclude 'mixins.timermod.json'
+    }
+}

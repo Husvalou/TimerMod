@@ -1,0 +1,9 @@
+Symbol range map extraction starting
+Processing 7 files
+processing com\example\timermod\Config.java
+processing com\example\timermod\GuiConfig.java
+processing com\example\timermod\GuiSlider.java
+processing com\example\timermod\MixinLoader.java
+processing com\example\timermod\TimerMod.java
+processing com\example\timermod\TimerModule.java
+processing com\example\timermod\mixin\IAccessorMinecraft.java

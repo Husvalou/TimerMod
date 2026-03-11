@@ -1,0 +1,862 @@
+Symbol range map extraction starting
+Processing 7 files
+processing com\example\timermod\Config.java
+@|com\example\timermod\Config.java|8|28|com.example.timermod|package|com.example.timermod|(file)
+Class Start: com.example.timermod.Config
+   @|com\example\timermod\Config.java|233|246|Configuration|class|net.minecraftforge.common.config.Configuration
+   @|com\example\timermod\Config.java|247|253|config|field|com.example.timermod.Config|config|
+   @|com\example\timermod\Config.java|283|292|toggleKey|field|com.example.timermod.Config|toggleKey|
+   @|com\example\timermod\Config.java|295|303|Keyboard|class|org.lwjgl.input.Keyboard
+   @|com\example\timermod\Config.java|304|309|KEY_R|field|org.lwjgl.input.Keyboard|KEY_R
+   @|com\example\timermod\Config.java|334|340|guiKey|field|com.example.timermod.Config|guiKey|
+   @|com\example\timermod\Config.java|343|351|Keyboard|class|org.lwjgl.input.Keyboard
+   @|com\example\timermod\Config.java|352|362|KEY_RSHIFT|field|org.lwjgl.input.Keyboard|KEY_RSHIFT
+   @|com\example\timermod\Config.java|390|395|speed|field|com.example.timermod.Config|speed|
+   @|com\example\timermod\Config.java|436|444|KEY_NONE|field|com.example.timermod.Config|KEY_NONE|
+   Method Start: load(Ljava/io/File;)V
+      @|com\example\timermod\Config.java|478|482|load|method|com.example.timermod.Config|load|(Ljava/io/File;)V
+      @|com\example\timermod\Config.java|483|487|File|class|java.io.File
+      @|com\example\timermod\Config.java|488|498|configFile|param|com.example.timermod.Config|load|(Ljava/io/File;)V|configFile|0
+      @|com\example\timermod\Config.java|510|516|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|523|536|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|com\example\timermod\Config.java|537|547|configFile|param|com.example.timermod.Config|load|(Ljava/io/File;)V|configFile|0
+      @|com\example\timermod\Config.java|567|575|Property|class|net.minecraftforge.common.config.Property
+      @|com\example\timermod\Config.java|589|595|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|596|599|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|com\example\timermod\Config.java|621|629|Keyboard|class|org.lwjgl.input.Keyboard
+      @|com\example\timermod\Config.java|630|635|KEY_R|field|org.lwjgl.input.Keyboard|KEY_R
+      @|com\example\timermod\Config.java|694|702|Property|class|net.minecraftforge.common.config.Property
+      @|com\example\timermod\Config.java|713|719|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|720|723|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|com\example\timermod\Config.java|742|750|Keyboard|class|org.lwjgl.input.Keyboard
+      @|com\example\timermod\Config.java|751|761|KEY_RSHIFT|field|org.lwjgl.input.Keyboard|KEY_RSHIFT
+      @|com\example\timermod\Config.java|811|819|Property|class|net.minecraftforge.common.config.Property
+      @|com\example\timermod\Config.java|832|838|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|839|842|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;DLjava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|com\example\timermod\Config.java|915|924|toggleKey|field|com.example.timermod.Config|toggleKey
+      @|com\example\timermod\Config.java|938|944|getInt|method|net.minecraftforge.common.config.Property|getInt|()I
+      @|com\example\timermod\Config.java|956|962|guiKey|field|com.example.timermod.Config|guiKey
+      @|com\example\timermod\Config.java|973|979|getInt|method|net.minecraftforge.common.config.Property|getInt|()I
+      @|com\example\timermod\Config.java|991|996|speed|field|com.example.timermod.Config|speed
+      @|com\example\timermod\Config.java|1009|1018|getDouble|method|net.minecraftforge.common.config.Property|getDouble|()D
+      @|com\example\timermod\Config.java|1043|1049|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|1050|1060|hasChanged|method|net.minecraftforge.common.config.Configuration|hasChanged|()Z
+      @|com\example\timermod\Config.java|1078|1084|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|1085|1089|save|method|net.minecraftforge.common.config.Configuration|save|()V
+   Method End: load(Ljava/io/File;)V
+   Method Start: save()V
+      @|com\example\timermod\Config.java|1137|1141|save|method|com.example.timermod.Config|save|()V
+      @|com\example\timermod\Config.java|1158|1164|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|1188|1194|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|1195|1198|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;I)Lnet/minecraftforge/common/config/Property;
+      @|com\example\timermod\Config.java|1220|1228|Keyboard|class|org.lwjgl.input.Keyboard
+      @|com\example\timermod\Config.java|1229|1234|KEY_R|field|org.lwjgl.input.Keyboard|KEY_R
+      @|com\example\timermod\Config.java|1236|1239|set|method|net.minecraftforge.common.config.Property|set|(I)V
+      @|com\example\timermod\Config.java|1240|1249|toggleKey|field|com.example.timermod.Config|toggleKey
+      @|com\example\timermod\Config.java|1264|1270|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|1271|1274|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;I)Lnet/minecraftforge/common/config/Property;
+      @|com\example\timermod\Config.java|1293|1301|Keyboard|class|org.lwjgl.input.Keyboard
+      @|com\example\timermod\Config.java|1302|1312|KEY_RSHIFT|field|org.lwjgl.input.Keyboard|KEY_RSHIFT
+      @|com\example\timermod\Config.java|1314|1317|set|method|net.minecraftforge.common.config.Property|set|(I)V
+      @|com\example\timermod\Config.java|1318|1324|guiKey|field|com.example.timermod.Config|guiKey
+      @|com\example\timermod\Config.java|1339|1345|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|1346|1349|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;D)Lnet/minecraftforge/common/config/Property;
+      @|com\example\timermod\Config.java|1376|1379|set|method|net.minecraftforge.common.config.Property|set|(D)V
+      @|com\example\timermod\Config.java|1380|1385|speed|field|com.example.timermod.Config|speed
+      @|com\example\timermod\Config.java|1400|1406|config|field|com.example.timermod.Config|config
+      @|com\example\timermod\Config.java|1407|1411|save|method|net.minecraftforge.common.config.Configuration|save|()V
+   Method End: save()V
+   Method Start: getToggleKey()I
+      @|com\example\timermod\Config.java|1458|1470|getToggleKey|method|com.example.timermod.Config|getToggleKey|()I
+      @|com\example\timermod\Config.java|1490|1499|toggleKey|field|com.example.timermod.Config|toggleKey
+   Method End: getToggleKey()I
+   Method Start: setToggleKey(I)V
+      @|com\example\timermod\Config.java|1535|1547|setToggleKey|method|com.example.timermod.Config|setToggleKey|(I)V
+      @|com\example\timermod\Config.java|1552|1555|key|param|com.example.timermod.Config|setToggleKey|(I)V|key|0
+      @|com\example\timermod\Config.java|1567|1576|toggleKey|field|com.example.timermod.Config|toggleKey
+      @|com\example\timermod\Config.java|1579|1582|key|param|com.example.timermod.Config|setToggleKey|(I)V|key|0
+      @|com\example\timermod\Config.java|1592|1596|save|method|com.example.timermod.Config|save|()V
+   Method End: setToggleKey(I)V
+   Method Start: getGuiKey()I
+      @|com\example\timermod\Config.java|1633|1642|getGuiKey|method|com.example.timermod.Config|getGuiKey|()I
+      @|com\example\timermod\Config.java|1662|1668|guiKey|field|com.example.timermod.Config|guiKey
+   Method End: getGuiKey()I
+   Method Start: setGuiKey(I)V
+      @|com\example\timermod\Config.java|1704|1713|setGuiKey|method|com.example.timermod.Config|setGuiKey|(I)V
+      @|com\example\timermod\Config.java|1718|1721|key|param|com.example.timermod.Config|setGuiKey|(I)V|key|0
+      @|com\example\timermod\Config.java|1733|1739|guiKey|field|com.example.timermod.Config|guiKey
+      @|com\example\timermod\Config.java|1742|1745|key|param|com.example.timermod.Config|setGuiKey|(I)V|key|0
+      @|com\example\timermod\Config.java|1755|1759|save|method|com.example.timermod.Config|save|()V
+   Method End: setGuiKey(I)V
+   Method Start: getSpeed()D
+      @|com\example\timermod\Config.java|1799|1807|getSpeed|method|com.example.timermod.Config|getSpeed|()D
+      @|com\example\timermod\Config.java|1827|1832|speed|field|com.example.timermod.Config|speed
+   Method End: getSpeed()D
+   Method Start: setSpeed(D)V
+      @|com\example\timermod\Config.java|1868|1876|setSpeed|method|com.example.timermod.Config|setSpeed|(D)V
+      @|com\example\timermod\Config.java|1884|1892|newSpeed|param|com.example.timermod.Config|setSpeed|(D)V|newSpeed|0
+      @|com\example\timermod\Config.java|1904|1909|speed|field|com.example.timermod.Config|speed
+      @|com\example\timermod\Config.java|1912|1916|Math|class|java.lang.Math
+      @|com\example\timermod\Config.java|1917|1920|max|method|java.lang.Math|max|(DD)D
+      @|com\example\timermod\Config.java|1926|1930|Math|class|java.lang.Math
+      @|com\example\timermod\Config.java|1931|1934|min|method|java.lang.Math|min|(DD)D
+      @|com\example\timermod\Config.java|1940|1948|newSpeed|param|com.example.timermod.Config|setSpeed|(D)V|newSpeed|0
+      @|com\example\timermod\Config.java|1960|1964|save|method|com.example.timermod.Config|save|()V
+   Method End: setSpeed(D)V
+   Method Start: getKeyName(I)Ljava/lang/String;
+      @|com\example\timermod\Config.java|2004|2014|getKeyName|method|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;
+      @|com\example\timermod\Config.java|1997|2003|String|class|java.lang.String
+      @|com\example\timermod\Config.java|2019|2022|key|param|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;|key|0
+      @|com\example\timermod\Config.java|2038|2041|key|param|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;|key|0
+      @|com\example\timermod\Config.java|2045|2053|KEY_NONE|field|com.example.timermod.Config|KEY_NONE
+      @|com\example\timermod\Config.java|2057|2060|key|param|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;|key|0
+      @|com\example\timermod\Config.java|2122|2130|Keyboard|class|org.lwjgl.input.Keyboard
+      @|com\example\timermod\Config.java|2131|2141|getKeyName|method|org.lwjgl.input.Keyboard|getKeyName|(I)Ljava/lang/String;
+      @|com\example\timermod\Config.java|2142|2145|key|param|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;|key|0
+   Method End: getKeyName(I)Ljava/lang/String;
+Class End  : com.example.timermod.Config
+endProcessing com\example\timermod\Config.java
+
+processing com\example\timermod\GuiConfig.java
+@|com\example\timermod\GuiConfig.java|8|28|com.example.timermod|package|com.example.timermod|(file)
+Class Start: com.example.timermod.GuiConfig
+   @|com\example\timermod\GuiConfig.java|445|456|TimerModule|class|com.example.timermod.TimerModule
+   @|com\example\timermod\GuiConfig.java|457|462|timer|field|com.example.timermod.GuiConfig|timer|
+   @|com\example\timermod\GuiConfig.java|476|485|GuiButton|class|net.minecraft.client.gui.GuiButton
+   @|com\example\timermod\GuiConfig.java|486|498|toggleButton|field|com.example.timermod.GuiConfig|toggleButton|
+   @|com\example\timermod\GuiConfig.java|512|521|GuiSlider|class|com.example.timermod.GuiSlider
+   @|com\example\timermod\GuiConfig.java|522|533|speedSlider|field|com.example.timermod.GuiConfig|speedSlider|
+   @|com\example\timermod\GuiConfig.java|547|556|GuiButton|class|net.minecraft.client.gui.GuiButton
+   @|com\example\timermod\GuiConfig.java|557|568|closeButton|field|com.example.timermod.GuiConfig|closeButton|
+   @|com\example\timermod\GuiConfig.java|582|591|GuiButton|class|net.minecraft.client.gui.GuiButton
+   @|com\example\timermod\GuiConfig.java|592|607|toggleKeyButton|field|com.example.timermod.GuiConfig|toggleKeyButton|
+   @|com\example\timermod\GuiConfig.java|621|630|GuiButton|class|net.minecraft.client.gui.GuiButton
+   @|com\example\timermod\GuiConfig.java|631|643|guiKeyButton|field|com.example.timermod.GuiConfig|guiKeyButton|
+   @|com\example\timermod\GuiConfig.java|657|666|GuiSlider|class|com.example.timermod.GuiSlider
+   @|com\example\timermod\GuiConfig.java|667|680|draggedSlider|field|com.example.timermod.GuiConfig|draggedSlider|
+   Method Start: GuiConfig(Lcom/example/timermod/TimerModule;)V
+      @|com\example\timermod\GuiConfig.java|701|710|GuiConfig|method|com.example.timermod.GuiConfig|GuiConfig|(Lcom/example/timermod/TimerModule;)V
+      @|com\example\timermod\GuiConfig.java|711|722|TimerModule|class|com.example.timermod.TimerModule
+      @|com\example\timermod\GuiConfig.java|723|728|timer|param|com.example.timermod.GuiConfig|GuiConfig|(Lcom/example/timermod/TimerModule;)V|timer|0
+      @|com\example\timermod\GuiConfig.java|745|750|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|753|758|timer|param|com.example.timermod.GuiConfig|GuiConfig|(Lcom/example/timermod/TimerModule;)V|timer|0
+   Method End: GuiConfig(Lcom/example/timermod/TimerModule;)V
+   Method Start: initGui()V
+      @|com\example\timermod\GuiConfig.java|797|804|initGui|method|net.minecraft.client.gui.GuiScreen|initGui|()V
+      @|com\example\timermod\GuiConfig.java|836|841|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\example\timermod\GuiConfig.java|874|880|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\example\timermod\GuiConfig.java|895|907|toggleButton|field|com.example.timermod.GuiConfig|toggleButton
+      @|com\example\timermod\GuiConfig.java|914|923|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\example\timermod\GuiConfig.java|997|1008|speedSlider|field|com.example.timermod.GuiConfig|speedSlider
+      @|com\example\timermod\GuiConfig.java|1015|1024|GuiSlider|class|com.example.timermod.GuiSlider
+      @|com\example\timermod\GuiConfig.java|1090|1095|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|1096|1107|getMinSpeed|method|com.example.timermod.TimerModule|getMinSpeed|()D
+      @|com\example\timermod\GuiConfig.java|1111|1116|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|1117|1128|getMaxSpeed|method|com.example.timermod.TimerModule|getMaxSpeed|()D
+      @|com\example\timermod\GuiConfig.java|1132|1137|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|1138|1146|getSpeed|method|com.example.timermod.TimerModule|getSpeed|()D
+      @|com\example\timermod\GuiConfig.java|1150|1155|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|1156|1168|getIncrement|method|com.example.timermod.TimerModule|getIncrement|()D
+      @|com\example\timermod\GuiConfig.java|1188|1212|GuiSlider.SliderCallback|class|com.example.timermod.GuiSlider.SliderCallback
+      Anon Class Start: com.example.timermod.GuiConfig$1
+         Method Start: onValueChanged(D)V
+            @|com\example\timermod\GuiConfig.java|1271|1285|onValueChanged|method|com.example.timermod.GuiSlider.SliderCallback|onValueChanged|(D)V
+            @|com\example\timermod\GuiConfig.java|1293|1298|value|param|com.example.timermod.GuiConfig$1|onValueChanged|(D)V|value|0
+            @|com\example\timermod\GuiConfig.java|1322|1327|timer|field|com.example.timermod.GuiConfig|timer
+            @|com\example\timermod\GuiConfig.java|1328|1336|setSpeed|method|com.example.timermod.TimerModule|setSpeed|(D)V
+            @|com\example\timermod\GuiConfig.java|1337|1342|value|param|com.example.timermod.GuiConfig$1|onValueChanged|(D)V|value|0
+         Method End: onValueChanged(D)V
+      Anon Class End: com.example.timermod.GuiConfig$1
+      @|com\example\timermod\GuiConfig.java|1424|1439|toggleKeyButton|field|com.example.timermod.GuiConfig|toggleKeyButton
+      @|com\example\timermod\GuiConfig.java|1446|1455|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\example\timermod\GuiConfig.java|1513|1519|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|1520|1530|getKeyName|method|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;
+      @|com\example\timermod\GuiConfig.java|1531|1537|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|1538|1550|getToggleKey|method|com.example.timermod.Config|getToggleKey|()I
+      @|com\example\timermod\GuiConfig.java|1564|1576|guiKeyButton|field|com.example.timermod.GuiConfig|guiKeyButton
+      @|com\example\timermod\GuiConfig.java|1583|1592|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\example\timermod\GuiConfig.java|1648|1654|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|1655|1665|getKeyName|method|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;
+      @|com\example\timermod\GuiConfig.java|1666|1672|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|1673|1682|getGuiKey|method|com.example.timermod.Config|getGuiKey|()I
+      @|com\example\timermod\GuiConfig.java|1705|1716|closeButton|field|com.example.timermod.GuiConfig|closeButton
+      @|com\example\timermod\GuiConfig.java|1723|1732|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\example\timermod\GuiConfig.java|1797|1807|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\example\timermod\GuiConfig.java|1808|1811|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\example\timermod\GuiConfig.java|1812|1824|toggleButton|field|com.example.timermod.GuiConfig|toggleButton
+      @|com\example\timermod\GuiConfig.java|1840|1850|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\example\timermod\GuiConfig.java|1851|1854|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\example\timermod\GuiConfig.java|1855|1866|speedSlider|field|com.example.timermod.GuiConfig|speedSlider
+      @|com\example\timermod\GuiConfig.java|1882|1892|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\example\timermod\GuiConfig.java|1893|1896|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\example\timermod\GuiConfig.java|1897|1912|toggleKeyButton|field|com.example.timermod.GuiConfig|toggleKeyButton
+      @|com\example\timermod\GuiConfig.java|1928|1938|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\example\timermod\GuiConfig.java|1939|1942|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\example\timermod\GuiConfig.java|1943|1955|guiKeyButton|field|com.example.timermod.GuiConfig|guiKeyButton
+      @|com\example\timermod\GuiConfig.java|1971|1981|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\example\timermod\GuiConfig.java|1982|1985|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\example\timermod\GuiConfig.java|1986|1997|closeButton|field|com.example.timermod.GuiConfig|closeButton
+      @|com\example\timermod\GuiConfig.java|2009|2025|updateButtonText|method|com.example.timermod.GuiConfig|updateButtonText|()V
+   Method End: initGui()V
+   Method Start: actionPerformed(Lnet/minecraft/client/gui/GuiButton;)V
+      @|com\example\timermod\GuiConfig.java|2069|2084|actionPerformed|method|net.minecraft.client.gui.GuiScreen|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V
+      @|com\example\timermod\GuiConfig.java|2085|2094|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\example\timermod\GuiConfig.java|2095|2101|button|param|com.example.timermod.GuiConfig|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|com\example\timermod\GuiConfig.java|2117|2123|button|param|com.example.timermod.GuiConfig|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|com\example\timermod\GuiConfig.java|2124|2126|id|field|net.minecraft.client.gui.GuiButton|id
+      @|com\example\timermod\GuiConfig.java|2147|2152|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|2153|2159|toggle|method|com.example.timermod.TimerModule|toggle|()V
+      @|com\example\timermod\GuiConfig.java|2182|2188|button|param|com.example.timermod.GuiConfig|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|com\example\timermod\GuiConfig.java|2189|2191|id|field|net.minecraft.client.gui.GuiButton|id
+      @|com\example\timermod\GuiConfig.java|2212|2214|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\example\timermod\GuiConfig.java|2215|2231|displayGuiScreen|method|net.minecraft.client.Minecraft|displayGuiScreen|(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|com\example\timermod\GuiConfig.java|2258|2264|button|param|com.example.timermod.GuiConfig|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|com\example\timermod\GuiConfig.java|2265|2267|id|field|net.minecraft.client.gui.GuiButton|id
+      @|com\example\timermod\GuiConfig.java|2330|2335|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|2336|2358|setWaitingForToggleKey|method|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V
+      @|com\example\timermod\GuiConfig.java|2378|2384|button|param|com.example.timermod.GuiConfig|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|com\example\timermod\GuiConfig.java|2385|2398|displayString|field|net.minecraft.client.gui.GuiButton|displayString
+      @|com\example\timermod\GuiConfig.java|2440|2446|button|param|com.example.timermod.GuiConfig|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|com\example\timermod\GuiConfig.java|2447|2449|id|field|net.minecraft.client.gui.GuiButton|id
+      @|com\example\timermod\GuiConfig.java|2509|2514|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|2515|2534|setWaitingForGuiKey|method|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V
+      @|com\example\timermod\GuiConfig.java|2554|2560|button|param|com.example.timermod.GuiConfig|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|com\example\timermod\GuiConfig.java|2561|2574|displayString|field|net.minecraft.client.gui.GuiButton|displayString
+      @|com\example\timermod\GuiConfig.java|2615|2631|updateButtonText|method|com.example.timermod.GuiConfig|updateButtonText|()V
+   Method End: actionPerformed(Lnet/minecraft/client/gui/GuiButton;)V
+   Method Start: updateButtonText()V
+      @|com\example\timermod\GuiConfig.java|2659|2675|updateButtonText|method|com.example.timermod.GuiConfig|updateButtonText|()V
+      @|com\example\timermod\GuiConfig.java|2688|2700|toggleButton|field|com.example.timermod.GuiConfig|toggleButton
+      @|com\example\timermod\GuiConfig.java|2701|2714|displayString|field|net.minecraft.client.gui.GuiButton|displayString
+      @|com\example\timermod\GuiConfig.java|2717|2722|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|2723|2732|isEnabled|method|com.example.timermod.TimerModule|isEnabled|()Z
+      @|com\example\timermod\GuiConfig.java|2773|2785|toggleButton|field|com.example.timermod.GuiConfig|toggleButton
+      @|com\example\timermod\GuiConfig.java|2786|2800|packedFGColour|field|net.minecraft.client.gui.GuiButton|packedFGColour
+      @|com\example\timermod\GuiConfig.java|2803|2808|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|2809|2818|isEnabled|method|com.example.timermod.TimerModule|isEnabled|()Z
+      @|com\example\timermod\GuiConfig.java|2866|2871|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|2872|2893|isWaitingForToggleKey|method|com.example.timermod.TimerModule|isWaitingForToggleKey|()Z
+      @|com\example\timermod\GuiConfig.java|2911|2926|toggleKeyButton|field|com.example.timermod.GuiConfig|toggleKeyButton
+      @|com\example\timermod\GuiConfig.java|2927|2940|displayString|field|net.minecraft.client.gui.GuiButton|displayString
+      @|com\example\timermod\GuiConfig.java|2960|2966|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|2967|2977|getKeyName|method|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;
+      @|com\example\timermod\GuiConfig.java|2978|2984|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|2985|2997|getToggleKey|method|com.example.timermod.Config|getToggleKey|()I
+      @|com\example\timermod\GuiConfig.java|3025|3030|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|3031|3049|isWaitingForGuiKey|method|com.example.timermod.TimerModule|isWaitingForGuiKey|()Z
+      @|com\example\timermod\GuiConfig.java|3067|3079|guiKeyButton|field|com.example.timermod.GuiConfig|guiKeyButton
+      @|com\example\timermod\GuiConfig.java|3080|3093|displayString|field|net.minecraft.client.gui.GuiButton|displayString
+      @|com\example\timermod\GuiConfig.java|3110|3116|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|3117|3127|getKeyName|method|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;
+      @|com\example\timermod\GuiConfig.java|3128|3134|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|3135|3144|getGuiKey|method|com.example.timermod.Config|getGuiKey|()I
+   Method End: updateButtonText()V
+   Method Start: updateScreen()V
+      @|com\example\timermod\GuiConfig.java|3196|3208|updateScreen|method|net.minecraft.client.gui.GuiScreen|updateScreen|()V
+      @|com\example\timermod\GuiConfig.java|3227|3239|updateScreen|method|net.minecraft.client.gui.GuiScreen|updateScreen|()V
+      @|com\example\timermod\GuiConfig.java|3307|3312|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|3313|3334|isWaitingForToggleKey|method|com.example.timermod.TimerModule|isWaitingForToggleKey|()Z
+      @|com\example\timermod\GuiConfig.java|3341|3346|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|3347|3365|isWaitingForGuiKey|method|com.example.timermod.TimerModule|isWaitingForGuiKey|()Z
+      @|com\example\timermod\GuiConfig.java|3383|3399|updateButtonText|method|com.example.timermod.GuiConfig|updateButtonText|()V
+   Method End: updateScreen()V
+   Method Start: drawScreen(IIF)V
+      @|com\example\timermod\GuiConfig.java|3450|3460|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+      @|com\example\timermod\GuiConfig.java|3465|3471|mouseX|param|com.example.timermod.GuiConfig|drawScreen|(IIF)V|mouseX|0
+      @|com\example\timermod\GuiConfig.java|3477|3483|mouseY|param|com.example.timermod.GuiConfig|drawScreen|(IIF)V|mouseY|1
+      @|com\example\timermod\GuiConfig.java|3491|3503|partialTicks|param|com.example.timermod.GuiConfig|drawScreen|(IIF)V|partialTicks|2
+      @|com\example\timermod\GuiConfig.java|3520|3541|drawDefaultBackground|method|net.minecraft.client.gui.GuiScreen|drawDefaultBackground|()V
+      @|com\example\timermod\GuiConfig.java|3571|3585|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\example\timermod\GuiConfig.java|3586|3596|pushMatrix|method|net.minecraft.client.renderer.GlStateManager|pushMatrix|()V
+      @|com\example\timermod\GuiConfig.java|3608|3622|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\example\timermod\GuiConfig.java|3623|3628|scale|method|net.minecraft.client.renderer.GlStateManager|scale|(FFF)V
+      @|com\example\timermod\GuiConfig.java|3661|3679|drawCenteredString|method|net.minecraft.client.gui.Gui|drawCenteredString|(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V
+      @|com\example\timermod\GuiConfig.java|3685|3700|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\example\timermod\GuiConfig.java|3720|3725|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\example\timermod\GuiConfig.java|3754|3768|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\example\timermod\GuiConfig.java|3769|3778|popMatrix|method|net.minecraft.client.renderer.GlStateManager|popMatrix|()V
+      @|com\example\timermod\GuiConfig.java|3816|3822|String|class|java.lang.String
+      @|com\example\timermod\GuiConfig.java|3839|3845|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|3846|3856|getKeyName|method|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;
+      @|com\example\timermod\GuiConfig.java|3857|3863|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|3864|3876|getToggleKey|method|com.example.timermod.Config|getToggleKey|()I
+      @|com\example\timermod\GuiConfig.java|3889|3895|String|class|java.lang.String
+      @|com\example\timermod\GuiConfig.java|3909|3915|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|3916|3926|getKeyName|method|com.example.timermod.Config|getKeyName|(I)Ljava/lang/String;
+      @|com\example\timermod\GuiConfig.java|3927|3933|Config|class|com.example.timermod.Config
+      @|com\example\timermod\GuiConfig.java|3934|3943|getGuiKey|method|com.example.timermod.Config|getGuiKey|()I
+      @|com\example\timermod\GuiConfig.java|3961|3979|drawCenteredString|method|net.minecraft.client.gui.Gui|drawCenteredString|(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V
+      @|com\example\timermod\GuiConfig.java|3985|4000|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\example\timermod\GuiConfig.java|4109|4114|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\example\timermod\GuiConfig.java|4125|4131|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\example\timermod\GuiConfig.java|4248|4253|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\example\timermod\GuiConfig.java|4288|4294|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\example\timermod\GuiConfig.java|4473|4481|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiConfig.java|4897|4913|interpolateColor|method|com.example.timermod.GuiConfig|interpolateColor|(IIF)I
+      @|com\example\timermod\GuiConfig.java|4956|4964|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiConfig.java|5239|5255|interpolateColor|method|com.example.timermod.GuiConfig|interpolateColor|(IIF)I
+      @|com\example\timermod\GuiConfig.java|5298|5306|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiConfig.java|5611|5627|interpolateColor|method|com.example.timermod.GuiConfig|interpolateColor|(IIF)I
+      @|com\example\timermod\GuiConfig.java|5670|5678|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiConfig.java|5954|5970|interpolateColor|method|com.example.timermod.GuiConfig|interpolateColor|(IIF)I
+      @|com\example\timermod\GuiConfig.java|6013|6021|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiConfig.java|6185|6195|drawString|method|net.minecraft.client.gui.Gui|drawString|(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V
+      @|com\example\timermod\GuiConfig.java|6201|6216|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\example\timermod\GuiConfig.java|6290|6300|drawString|method|net.minecraft.client.gui.Gui|drawString|(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V
+      @|com\example\timermod\GuiConfig.java|6306|6321|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\example\timermod\GuiConfig.java|6401|6411|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+      @|com\example\timermod\GuiConfig.java|6412|6418|mouseX|param|com.example.timermod.GuiConfig|drawScreen|(IIF)V|mouseX|0
+      @|com\example\timermod\GuiConfig.java|6420|6426|mouseY|param|com.example.timermod.GuiConfig|drawScreen|(IIF)V|mouseY|1
+      @|com\example\timermod\GuiConfig.java|6428|6440|partialTicks|param|com.example.timermod.GuiConfig|drawScreen|(IIF)V|partialTicks|2
+   Method End: drawScreen(IIF)V
+   Method Start: interpolateColor(IIF)I
+      @|com\example\timermod\GuiConfig.java|6470|6486|interpolateColor|method|com.example.timermod.GuiConfig|interpolateColor|(IIF)I
+      @|com\example\timermod\GuiConfig.java|6491|6501|startColor|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|startColor|0
+      @|com\example\timermod\GuiConfig.java|6507|6515|endColor|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|endColor|1
+      @|com\example\timermod\GuiConfig.java|6523|6528|ratio|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|ratio|2
+      @|com\example\timermod\GuiConfig.java|6560|6565|ratio|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|ratio|2
+      @|com\example\timermod\GuiConfig.java|6571|6581|startColor|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|startColor|0
+      @|com\example\timermod\GuiConfig.java|6599|6604|ratio|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|ratio|2
+      @|com\example\timermod\GuiConfig.java|6609|6617|endColor|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|endColor|1
+      @|com\example\timermod\GuiConfig.java|6663|6668|ratio|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|ratio|2
+      @|com\example\timermod\GuiConfig.java|6674|6684|startColor|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|startColor|0
+      @|com\example\timermod\GuiConfig.java|6701|6706|ratio|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|ratio|2
+      @|com\example\timermod\GuiConfig.java|6711|6719|endColor|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|endColor|1
+      @|com\example\timermod\GuiConfig.java|6764|6769|ratio|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|ratio|2
+      @|com\example\timermod\GuiConfig.java|6774|6784|startColor|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|startColor|0
+      @|com\example\timermod\GuiConfig.java|6795|6800|ratio|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|ratio|2
+      @|com\example\timermod\GuiConfig.java|6804|6812|endColor|param|com.example.timermod.GuiConfig|interpolateColor|(IIF)I|endColor|1
+   Method End: interpolateColor(IIF)I
+   Method Start: keyTyped(CI)V
+      @|com\example\timermod\GuiConfig.java|6917|6925|keyTyped|method|net.minecraft.client.gui.GuiScreen|keyTyped|(CI)V
+      @|com\example\timermod\GuiConfig.java|6931|6940|typedChar|param|com.example.timermod.GuiConfig|keyTyped|(CI)V|typedChar|0
+      @|com\example\timermod\GuiConfig.java|6946|6953|keyCode|param|com.example.timermod.GuiConfig|keyTyped|(CI)V|keyCode|1
+      @|com\example\timermod\GuiConfig.java|6969|6976|keyCode|param|com.example.timermod.GuiConfig|keyTyped|(CI)V|keyCode|1
+      @|com\example\timermod\GuiConfig.java|6980|6988|Keyboard|class|org.lwjgl.input.Keyboard
+      @|com\example\timermod\GuiConfig.java|6989|6999|KEY_ESCAPE|field|org.lwjgl.input.Keyboard|KEY_ESCAPE
+      @|com\example\timermod\GuiConfig.java|7015|7017|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\example\timermod\GuiConfig.java|7018|7034|displayGuiScreen|method|net.minecraft.client.Minecraft|displayGuiScreen|(Lnet/minecraft/client/gui/GuiScreen;)V
+   Method End: keyTyped(CI)V
+   Method Start: doesGuiPauseGame()Z
+      @|com\example\timermod\GuiConfig.java|7092|7108|doesGuiPauseGame|method|net.minecraft.client.gui.GuiScreen|doesGuiPauseGame|()Z
+   Method End: doesGuiPauseGame()Z
+   Method Start: handleMouseInput()V
+      @|com\example\timermod\GuiConfig.java|7172|7188|handleMouseInput|method|net.minecraft.client.gui.GuiScreen|handleMouseInput|()V
+      @|com\example\timermod\GuiConfig.java|7225|7241|handleMouseInput|method|net.minecraft.client.gui.GuiScreen|handleMouseInput|()V
+      @|com\example\timermod\GuiConfig.java|7262|7273|IOException|class|java.io.IOException
+      @|com\example\timermod\GuiConfig.java|7293|7308|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|com\example\timermod\GuiConfig.java|7352|7357|Mouse|class|org.lwjgl.input.Mouse
+      @|com\example\timermod\GuiConfig.java|7358|7367|getEventX|method|org.lwjgl.input.Mouse|getEventX|()I
+      @|com\example\timermod\GuiConfig.java|7377|7382|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\example\timermod\GuiConfig.java|7390|7392|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\example\timermod\GuiConfig.java|7393|7405|displayWidth|field|net.minecraft.client.Minecraft|displayWidth
+      @|com\example\timermod\GuiConfig.java|7433|7439|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\example\timermod\GuiConfig.java|7442|7447|Mouse|class|org.lwjgl.input.Mouse
+      @|com\example\timermod\GuiConfig.java|7448|7457|getEventY|method|org.lwjgl.input.Mouse|getEventY|()I
+      @|com\example\timermod\GuiConfig.java|7467|7473|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\example\timermod\GuiConfig.java|7481|7483|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\example\timermod\GuiConfig.java|7484|7497|displayHeight|field|net.minecraft.client.Minecraft|displayHeight
+      @|com\example\timermod\GuiConfig.java|7558|7563|Mouse|class|org.lwjgl.input.Mouse
+      @|com\example\timermod\GuiConfig.java|7564|7583|getEventButtonState|method|org.lwjgl.input.Mouse|getEventButtonState|()Z
+      @|com\example\timermod\GuiConfig.java|7606|7612|Object|class|java.lang.Object
+      @|com\example\timermod\GuiConfig.java|7627|7637|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\example\timermod\GuiConfig.java|7679|7688|GuiSlider|class|com.example.timermod.GuiSlider
+      @|com\example\timermod\GuiConfig.java|7712|7721|GuiSlider|class|com.example.timermod.GuiSlider
+      @|com\example\timermod\GuiConfig.java|7732|7741|GuiSlider|class|com.example.timermod.GuiSlider
+      @|com\example\timermod\GuiConfig.java|7782|7794|mousePressed|method|net.minecraft.client.gui.GuiButton|mousePressed|(Lnet/minecraft/client/Minecraft;II)Z
+      @|com\example\timermod\GuiConfig.java|7800|7802|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\example\timermod\GuiConfig.java|7852|7865|draggedSlider|field|com.example.timermod.GuiConfig|draggedSlider
+      @|com\example\timermod\GuiConfig.java|7980|7985|Mouse|class|org.lwjgl.input.Mouse
+      @|com\example\timermod\GuiConfig.java|7986|8000|getEventButton|method|org.lwjgl.input.Mouse|getEventButton|()I
+      @|com\example\timermod\GuiConfig.java|8063|8076|draggedSlider|field|com.example.timermod.GuiConfig|draggedSlider
+      @|com\example\timermod\GuiConfig.java|8109|8122|draggedSlider|field|com.example.timermod.GuiConfig|draggedSlider
+      @|com\example\timermod\GuiConfig.java|8123|8136|mouseReleased|method|net.minecraft.client.gui.GuiButton|mouseReleased|(II)V
+      @|com\example\timermod\GuiConfig.java|8175|8188|draggedSlider|field|com.example.timermod.GuiConfig|draggedSlider
+   Method End: handleMouseInput()V
+   Method Start: mouseClickMove(IIIJ)V
+      @|com\example\timermod\GuiConfig.java|8261|8275|mouseClickMove|method|net.minecraft.client.gui.GuiScreen|mouseClickMove|(IIIJ)V
+      @|com\example\timermod\GuiConfig.java|8280|8286|mouseX|param|com.example.timermod.GuiConfig|mouseClickMove|(IIIJ)V|mouseX|0
+      @|com\example\timermod\GuiConfig.java|8292|8298|mouseY|param|com.example.timermod.GuiConfig|mouseClickMove|(IIIJ)V|mouseY|1
+      @|com\example\timermod\GuiConfig.java|8304|8322|clickedMouseButton|param|com.example.timermod.GuiConfig|mouseClickMove|(IIIJ)V|clickedMouseButton|2
+      @|com\example\timermod\GuiConfig.java|8329|8347|timeSinceLastClick|param|com.example.timermod.GuiConfig|mouseClickMove|(IIIJ)V|timeSinceLastClick|3
+      @|com\example\timermod\GuiConfig.java|8368|8381|draggedSlider|field|com.example.timermod.GuiConfig|draggedSlider
+      @|com\example\timermod\GuiConfig.java|8410|8423|draggedSlider|field|com.example.timermod.GuiConfig|draggedSlider
+      @|com\example\timermod\GuiConfig.java|8424|8436|mouseDragged|method|net.minecraft.client.gui.GuiButton|mouseDragged|(Lnet/minecraft/client/Minecraft;II)V
+      @|com\example\timermod\GuiConfig.java|8442|8444|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\example\timermod\GuiConfig.java|8446|8452|mouseX|param|com.example.timermod.GuiConfig|mouseClickMove|(IIIJ)V|mouseX|0
+      @|com\example\timermod\GuiConfig.java|8454|8460|mouseY|param|com.example.timermod.GuiConfig|mouseClickMove|(IIIJ)V|mouseY|1
+   Method End: mouseClickMove(IIIJ)V
+   Method Start: onGuiClosed()V
+      @|com\example\timermod\GuiConfig.java|8510|8521|onGuiClosed|method|net.minecraft.client.gui.GuiScreen|onGuiClosed|()V
+      @|com\example\timermod\GuiConfig.java|8534|8539|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|8540|8552|setGuiConfig|method|com.example.timermod.TimerModule|setGuiConfig|(Lcom/example/timermod/GuiConfig;)V
+      @|com\example\timermod\GuiConfig.java|8613|8618|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|8619|8640|isWaitingForToggleKey|method|com.example.timermod.TimerModule|isWaitingForToggleKey|()Z
+      @|com\example\timermod\GuiConfig.java|8658|8663|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|8664|8686|setWaitingForToggleKey|method|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V
+      @|com\example\timermod\GuiConfig.java|8717|8722|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|8723|8741|isWaitingForGuiKey|method|com.example.timermod.TimerModule|isWaitingForGuiKey|()Z
+      @|com\example\timermod\GuiConfig.java|8759|8764|timer|field|com.example.timermod.GuiConfig|timer
+      @|com\example\timermod\GuiConfig.java|8765|8784|setWaitingForGuiKey|method|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V
+   Method End: onGuiClosed()V
+Class End  : com.example.timermod.GuiConfig
+endProcessing com\example\timermod\GuiConfig.java
+
+processing com\example\timermod\GuiSlider.java
+@|com\example\timermod\GuiSlider.java|8|28|com.example.timermod|package|com.example.timermod|(file)
+Class Start: com.example.timermod.GuiSlider
+   @|com\example\timermod\GuiSlider.java|350|358|minValue|field|com.example.timermod.GuiSlider|minValue|
+   @|com\example\timermod\GuiSlider.java|379|387|maxValue|field|com.example.timermod.GuiSlider|maxValue|
+   @|com\example\timermod\GuiSlider.java|408|420|currentValue|field|com.example.timermod.GuiSlider|currentValue|
+   @|com\example\timermod\GuiSlider.java|441|445|step|field|com.example.timermod.GuiSlider|step|
+   @|com\example\timermod\GuiSlider.java|459|473|SliderCallback|class|com.example.timermod.GuiSlider.SliderCallback
+   @|com\example\timermod\GuiSlider.java|474|482|callback|field|com.example.timermod.GuiSlider|callback|
+   @|com\example\timermod\GuiSlider.java|504|512|dragging|field|com.example.timermod.GuiSlider|dragging|
+   @|com\example\timermod\GuiSlider.java|534|540|String|class|java.lang.String
+   @|com\example\timermod\GuiSlider.java|541|547|prefix|field|com.example.timermod.GuiSlider|prefix|
+   @|com\example\timermod\GuiSlider.java|606|614|BG_COLOR|field|com.example.timermod.GuiSlider|BG_COLOR|
+   @|com\example\timermod\GuiSlider.java|658|666|TRACK_BG|field|com.example.timermod.GuiSlider|TRACK_BG|
+   @|com\example\timermod\GuiSlider.java|710|720|TRACK_FILL|field|com.example.timermod.GuiSlider|TRACK_FILL|
+   @|com\example\timermod\GuiSlider.java|764|775|THUMB_COLOR|field|com.example.timermod.GuiSlider|THUMB_COLOR|
+   @|com\example\timermod\GuiSlider.java|819|825|BORDER|field|com.example.timermod.GuiSlider|BORDER|
+   Method Start: GuiSlider(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V
+      @|com\example\timermod\GuiSlider.java|852|861|GuiSlider|method|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V
+      @|com\example\timermod\GuiSlider.java|866|874|buttonId|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|buttonId|0
+      @|com\example\timermod\GuiSlider.java|880|881|x|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|x|1
+      @|com\example\timermod\GuiSlider.java|887|888|y|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|y|2
+      @|com\example\timermod\GuiSlider.java|894|899|width|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|width|3
+      @|com\example\timermod\GuiSlider.java|905|911|height|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|height|4
+      @|com\example\timermod\GuiSlider.java|913|919|String|class|java.lang.String
+      @|com\example\timermod\GuiSlider.java|920|926|prefix|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|prefix|5
+      @|com\example\timermod\GuiSlider.java|935|943|minValue|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|minValue|6
+      @|com\example\timermod\GuiSlider.java|952|960|maxValue|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|maxValue|7
+      @|com\example\timermod\GuiSlider.java|969|981|currentValue|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|currentValue|8
+      @|com\example\timermod\GuiSlider.java|990|994|step|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|step|9
+      @|com\example\timermod\GuiSlider.java|996|1010|SliderCallback|class|com.example.timermod.GuiSlider.SliderCallback
+      @|com\example\timermod\GuiSlider.java|1011|1019|callback|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|callback|10
+      @|com\example\timermod\GuiSlider.java|1037|1045|buttonId|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|buttonId|0
+      @|com\example\timermod\GuiSlider.java|1047|1048|x|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|x|1
+      @|com\example\timermod\GuiSlider.java|1050|1051|y|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|y|2
+      @|com\example\timermod\GuiSlider.java|1053|1058|width|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|width|3
+      @|com\example\timermod\GuiSlider.java|1060|1066|height|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|height|4
+      @|com\example\timermod\GuiSlider.java|1068|1074|prefix|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|prefix|5
+      @|com\example\timermod\GuiSlider.java|1077|1083|String|class|java.lang.String
+      @|com\example\timermod\GuiSlider.java|1084|1090|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com\example\timermod\GuiSlider.java|1099|1111|currentValue|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|currentValue|8
+      @|com\example\timermod\GuiSlider.java|1128|1134|prefix|field|com.example.timermod.GuiSlider|prefix
+      @|com\example\timermod\GuiSlider.java|1137|1143|prefix|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|prefix|5
+      @|com\example\timermod\GuiSlider.java|1158|1166|minValue|field|com.example.timermod.GuiSlider|minValue
+      @|com\example\timermod\GuiSlider.java|1169|1177|minValue|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|minValue|6
+      @|com\example\timermod\GuiSlider.java|1192|1200|maxValue|field|com.example.timermod.GuiSlider|maxValue
+      @|com\example\timermod\GuiSlider.java|1203|1211|maxValue|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|maxValue|7
+      @|com\example\timermod\GuiSlider.java|1226|1238|currentValue|field|com.example.timermod.GuiSlider|currentValue
+      @|com\example\timermod\GuiSlider.java|1241|1253|currentValue|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|currentValue|8
+      @|com\example\timermod\GuiSlider.java|1268|1272|step|field|com.example.timermod.GuiSlider|step
+      @|com\example\timermod\GuiSlider.java|1275|1279|step|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|step|9
+      @|com\example\timermod\GuiSlider.java|1294|1302|callback|field|com.example.timermod.GuiSlider|callback
+      @|com\example\timermod\GuiSlider.java|1305|1313|callback|param|com.example.timermod.GuiSlider|GuiSlider|(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V|callback|10
+   Method End: GuiSlider(IIIIILjava/lang/String;DDDDLcom/example/timermod/GuiSlider$SliderCallback;)V
+   Method Start: drawButton(Lnet/minecraft/client/Minecraft;II)V
+      @|com\example\timermod\GuiSlider.java|1352|1362|drawButton|method|net.minecraft.client.gui.GuiButton|drawButton|(Lnet/minecraft/client/Minecraft;II)V
+      @|com\example\timermod\GuiSlider.java|1363|1372|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\timermod\GuiSlider.java|1373|1375|mc|param|com.example.timermod.GuiSlider|drawButton|(Lnet/minecraft/client/Minecraft;II)V|mc|0
+      @|com\example\timermod\GuiSlider.java|1381|1387|mouseX|param|com.example.timermod.GuiSlider|drawButton|(Lnet/minecraft/client/Minecraft;II)V|mouseX|1
+      @|com\example\timermod\GuiSlider.java|1393|1399|mouseY|param|com.example.timermod.GuiSlider|drawButton|(Lnet/minecraft/client/Minecraft;II)V|mouseY|2
+      @|com\example\timermod\GuiSlider.java|1420|1427|visible|field|net.minecraft.client.gui.GuiButton|visible
+      @|com\example\timermod\GuiSlider.java|1448|1455|hovered|field|net.minecraft.client.gui.GuiButton|hovered
+      @|com\example\timermod\GuiSlider.java|1458|1464|mouseX|param|com.example.timermod.GuiSlider|drawButton|(Lnet/minecraft/client/Minecraft;II)V|mouseX|1
+      @|com\example\timermod\GuiSlider.java|1473|1482|xPosition|field|net.minecraft.client.gui.GuiButton|xPosition
+      @|com\example\timermod\GuiSlider.java|1486|1492|mouseY|param|com.example.timermod.GuiSlider|drawButton|(Lnet/minecraft/client/Minecraft;II)V|mouseY|2
+      @|com\example\timermod\GuiSlider.java|1501|1510|yPosition|field|net.minecraft.client.gui.GuiButton|yPosition
+      @|com\example\timermod\GuiSlider.java|1541|1547|mouseX|param|com.example.timermod.GuiSlider|drawButton|(Lnet/minecraft/client/Minecraft;II)V|mouseX|1
+      @|com\example\timermod\GuiSlider.java|1555|1564|xPosition|field|net.minecraft.client.gui.GuiButton|xPosition
+      @|com\example\timermod\GuiSlider.java|1572|1577|width|field|net.minecraft.client.gui.GuiButton|width
+      @|com\example\timermod\GuiSlider.java|1581|1587|mouseY|param|com.example.timermod.GuiSlider|drawButton|(Lnet/minecraft/client/Minecraft;II)V|mouseY|2
+      @|com\example\timermod\GuiSlider.java|1595|1604|yPosition|field|net.minecraft.client.gui.GuiButton|yPosition
+      @|com\example\timermod\GuiSlider.java|1612|1618|height|field|net.minecraft.client.gui.GuiButton|height
+      @|com\example\timermod\GuiSlider.java|1658|1667|xPosition|field|net.minecraft.client.gui.GuiButton|xPosition
+      @|com\example\timermod\GuiSlider.java|1694|1703|yPosition|field|net.minecraft.client.gui.GuiButton|yPosition
+      @|com\example\timermod\GuiSlider.java|1730|1735|width|field|net.minecraft.client.gui.GuiButton|width
+      @|com\example\timermod\GuiSlider.java|1762|1768|height|field|net.minecraft.client.gui.GuiButton|height
+      @|com\example\timermod\GuiSlider.java|1858|1866|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|1895|1903|BG_COLOR|field|com.example.timermod.GuiSlider|BG_COLOR
+      @|com\example\timermod\GuiSlider.java|1918|1926|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|1955|1963|BG_COLOR|field|com.example.timermod.GuiSlider|BG_COLOR
+      @|com\example\timermod\GuiSlider.java|2045|2057|currentValue|field|com.example.timermod.GuiSlider|currentValue
+      @|com\example\timermod\GuiSlider.java|2060|2068|minValue|field|com.example.timermod.GuiSlider|minValue
+      @|com\example\timermod\GuiSlider.java|2073|2081|maxValue|field|com.example.timermod.GuiSlider|maxValue
+      @|com\example\timermod\GuiSlider.java|2084|2092|minValue|field|com.example.timermod.GuiSlider|minValue
+      @|com\example\timermod\GuiSlider.java|2262|2270|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|2309|2317|TRACK_BG|field|com.example.timermod.GuiSlider|TRACK_BG
+      @|com\example\timermod\GuiSlider.java|2371|2379|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|2430|2440|TRACK_FILL|field|com.example.timermod.GuiSlider|TRACK_FILL
+      @|com\example\timermod\GuiSlider.java|2657|2665|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|2848|2856|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|2913|2923|TRACK_FILL|field|com.example.timermod.GuiSlider|TRACK_FILL
+      @|com\example\timermod\GuiSlider.java|2990|2998|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|3119|3127|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|3148|3154|BORDER|field|com.example.timermod.GuiSlider|BORDER
+      @|com\example\timermod\GuiSlider.java|3169|3177|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|3206|3212|BORDER|field|com.example.timermod.GuiSlider|BORDER
+      @|com\example\timermod\GuiSlider.java|3227|3235|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|3256|3262|BORDER|field|com.example.timermod.GuiSlider|BORDER
+      @|com\example\timermod\GuiSlider.java|3277|3285|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\example\timermod\GuiSlider.java|3314|3320|BORDER|field|com.example.timermod.GuiSlider|BORDER
+      @|com\example\timermod\GuiSlider.java|3373|3386|displayString|field|net.minecraft.client.gui.GuiButton|displayString
+      @|com\example\timermod\GuiSlider.java|3389|3395|prefix|field|com.example.timermod.GuiSlider|prefix
+      @|com\example\timermod\GuiSlider.java|3398|3404|String|class|java.lang.String
+      @|com\example\timermod\GuiSlider.java|3405|3411|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com\example\timermod\GuiSlider.java|3421|3433|currentValue|field|com.example.timermod.GuiSlider|currentValue
+      @|com\example\timermod\GuiSlider.java|3469|3476|enabled|field|net.minecraft.client.gui.GuiButton|enabled
+      @|com\example\timermod\GuiSlider.java|3517|3535|drawCenteredString|method|net.minecraft.client.gui.Gui|drawCenteredString|(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V
+      @|com\example\timermod\GuiSlider.java|3536|3538|mc|param|com.example.timermod.GuiSlider|drawButton|(Lnet/minecraft/client/Minecraft;II)V|mc|0
+      @|com\example\timermod\GuiSlider.java|3539|3554|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\example\timermod\GuiSlider.java|3561|3574|displayString|field|net.minecraft.client.gui.GuiButton|displayString
+   Method End: drawButton(Lnet/minecraft/client/Minecraft;II)V
+   Method Start: mouseDragged(Lnet/minecraft/client/Minecraft;II)V
+      @|com\example\timermod\GuiSlider.java|3656|3668|mouseDragged|method|net.minecraft.client.gui.GuiButton|mouseDragged|(Lnet/minecraft/client/Minecraft;II)V
+      @|com\example\timermod\GuiSlider.java|3669|3678|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\timermod\GuiSlider.java|3679|3681|mc|param|com.example.timermod.GuiSlider|mouseDragged|(Lnet/minecraft/client/Minecraft;II)V|mc|0
+      @|com\example\timermod\GuiSlider.java|3687|3693|mouseX|param|com.example.timermod.GuiSlider|mouseDragged|(Lnet/minecraft/client/Minecraft;II)V|mouseX|1
+      @|com\example\timermod\GuiSlider.java|3699|3705|mouseY|param|com.example.timermod.GuiSlider|mouseDragged|(Lnet/minecraft/client/Minecraft;II)V|mouseY|2
+      @|com\example\timermod\GuiSlider.java|3726|3733|visible|field|net.minecraft.client.gui.GuiButton|visible
+      @|com\example\timermod\GuiSlider.java|3737|3745|dragging|field|com.example.timermod.GuiSlider|dragging
+      @|com\example\timermod\GuiSlider.java|3761|3781|updateValueFromMouse|method|com.example.timermod.GuiSlider|updateValueFromMouse|(I)V
+      @|com\example\timermod\GuiSlider.java|3782|3788|mouseX|param|com.example.timermod.GuiSlider|mouseDragged|(Lnet/minecraft/client/Minecraft;II)V|mouseX|1
+   Method End: mouseDragged(Lnet/minecraft/client/Minecraft;II)V
+   Method Start: mousePressed(Lnet/minecraft/client/Minecraft;II)Z
+      @|com\example\timermod\GuiSlider.java|3841|3853|mousePressed|method|net.minecraft.client.gui.GuiButton|mousePressed|(Lnet/minecraft/client/Minecraft;II)Z
+      @|com\example\timermod\GuiSlider.java|3854|3863|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\timermod\GuiSlider.java|3864|3866|mc|param|com.example.timermod.GuiSlider|mousePressed|(Lnet/minecraft/client/Minecraft;II)Z|mc|0
+      @|com\example\timermod\GuiSlider.java|3872|3878|mouseX|param|com.example.timermod.GuiSlider|mousePressed|(Lnet/minecraft/client/Minecraft;II)Z|mouseX|1
+      @|com\example\timermod\GuiSlider.java|3884|3890|mouseY|param|com.example.timermod.GuiSlider|mousePressed|(Lnet/minecraft/client/Minecraft;II)Z|mouseY|2
+      @|com\example\timermod\GuiSlider.java|3912|3924|mousePressed|method|net.minecraft.client.gui.GuiButton|mousePressed|(Lnet/minecraft/client/Minecraft;II)Z
+      @|com\example\timermod\GuiSlider.java|3925|3927|mc|param|com.example.timermod.GuiSlider|mousePressed|(Lnet/minecraft/client/Minecraft;II)Z|mc|0
+      @|com\example\timermod\GuiSlider.java|3929|3935|mouseX|param|com.example.timermod.GuiSlider|mousePressed|(Lnet/minecraft/client/Minecraft;II)Z|mouseX|1
+      @|com\example\timermod\GuiSlider.java|3937|3943|mouseY|param|com.example.timermod.GuiSlider|mousePressed|(Lnet/minecraft/client/Minecraft;II)Z|mouseY|2
+      @|com\example\timermod\GuiSlider.java|3960|3968|dragging|field|com.example.timermod.GuiSlider|dragging
+      @|com\example\timermod\GuiSlider.java|3989|4009|updateValueFromMouse|method|com.example.timermod.GuiSlider|updateValueFromMouse|(I)V
+      @|com\example\timermod\GuiSlider.java|4010|4016|mouseX|param|com.example.timermod.GuiSlider|mousePressed|(Lnet/minecraft/client/Minecraft;II)Z|mouseX|1
+   Method End: mousePressed(Lnet/minecraft/client/Minecraft;II)Z
+   Method Start: mouseReleased(II)V
+      @|com\example\timermod\GuiSlider.java|4113|4126|mouseReleased|method|net.minecraft.client.gui.GuiButton|mouseReleased|(II)V
+      @|com\example\timermod\GuiSlider.java|4131|4137|mouseX|param|com.example.timermod.GuiSlider|mouseReleased|(II)V|mouseX|0
+      @|com\example\timermod\GuiSlider.java|4143|4149|mouseY|param|com.example.timermod.GuiSlider|mouseReleased|(II)V|mouseY|1
+      @|com\example\timermod\GuiSlider.java|4161|4169|dragging|field|com.example.timermod.GuiSlider|dragging
+   Method End: mouseReleased(II)V
+   Method Start: updateValueFromMouse(I)V
+      @|com\example\timermod\GuiSlider.java|4203|4223|updateValueFromMouse|method|com.example.timermod.GuiSlider|updateValueFromMouse|(I)V
+      @|com\example\timermod\GuiSlider.java|4228|4234|mouseX|param|com.example.timermod.GuiSlider|updateValueFromMouse|(I)V|mouseX|0
+      @|com\example\timermod\GuiSlider.java|4265|4269|Math|class|java.lang.Math
+      @|com\example\timermod\GuiSlider.java|4270|4273|max|method|java.lang.Math|max|(II)I
+      @|com\example\timermod\GuiSlider.java|4277|4281|Math|class|java.lang.Math
+      @|com\example\timermod\GuiSlider.java|4282|4285|min|method|java.lang.Math|min|(II)I
+      @|com\example\timermod\GuiSlider.java|4286|4292|mouseX|param|com.example.timermod.GuiSlider|updateValueFromMouse|(I)V|mouseX|0
+      @|com\example\timermod\GuiSlider.java|4300|4309|xPosition|field|net.minecraft.client.gui.GuiButton|xPosition
+      @|com\example\timermod\GuiSlider.java|4316|4321|width|field|net.minecraft.client.gui.GuiButton|width
+      @|com\example\timermod\GuiSlider.java|4367|4372|width|field|net.minecraft.client.gui.GuiButton|width
+      @|com\example\timermod\GuiSlider.java|4400|4408|minValue|field|com.example.timermod.GuiSlider|minValue
+      @|com\example\timermod\GuiSlider.java|4422|4430|maxValue|field|com.example.timermod.GuiSlider|maxValue
+      @|com\example\timermod\GuiSlider.java|4433|4441|minValue|field|com.example.timermod.GuiSlider|minValue
+      @|com\example\timermod\GuiSlider.java|4497|4501|Math|class|java.lang.Math
+      @|com\example\timermod\GuiSlider.java|4502|4507|round|method|java.lang.Math|round|(D)J
+      @|com\example\timermod\GuiSlider.java|4519|4523|step|field|com.example.timermod.GuiSlider|step
+      @|com\example\timermod\GuiSlider.java|4527|4531|step|field|com.example.timermod.GuiSlider|step
+      @|com\example\timermod\GuiSlider.java|4552|4556|Math|class|java.lang.Math
+      @|com\example\timermod\GuiSlider.java|4557|4560|max|method|java.lang.Math|max|(DD)D
+      @|com\example\timermod\GuiSlider.java|4561|4569|minValue|field|com.example.timermod.GuiSlider|minValue
+      @|com\example\timermod\GuiSlider.java|4571|4575|Math|class|java.lang.Math
+      @|com\example\timermod\GuiSlider.java|4576|4579|min|method|java.lang.Math|min|(DD)D
+      @|com\example\timermod\GuiSlider.java|4580|4588|maxValue|field|com.example.timermod.GuiSlider|maxValue
+      @|com\example\timermod\GuiSlider.java|4621|4625|Math|class|java.lang.Math
+      @|com\example\timermod\GuiSlider.java|4626|4631|round|method|java.lang.Math|round|(D)J
+      @|com\example\timermod\GuiSlider.java|4692|4704|currentValue|field|com.example.timermod.GuiSlider|currentValue
+      @|com\example\timermod\GuiSlider.java|4720|4732|currentValue|field|com.example.timermod.GuiSlider|currentValue
+      @|com\example\timermod\GuiSlider.java|4761|4769|callback|field|com.example.timermod.GuiSlider|callback
+      @|com\example\timermod\GuiSlider.java|4797|4805|callback|field|com.example.timermod.GuiSlider|callback
+      @|com\example\timermod\GuiSlider.java|4806|4820|onValueChanged|method|com.example.timermod.GuiSlider.SliderCallback|onValueChanged|(D)V
+      @|com\example\timermod\GuiSlider.java|4821|4833|currentValue|field|com.example.timermod.GuiSlider|currentValue
+   Method End: updateValueFromMouse(I)V
+   Method Start: getCurrentValue()D
+      @|com\example\timermod\GuiSlider.java|4885|4900|getCurrentValue|method|com.example.timermod.GuiSlider|getCurrentValue|()D
+      @|com\example\timermod\GuiSlider.java|4920|4932|currentValue|field|com.example.timermod.GuiSlider|currentValue
+   Method End: getCurrentValue()D
+   Method Start: setCurrentValue(D)V
+      @|com\example\timermod\GuiSlider.java|4957|4972|setCurrentValue|method|com.example.timermod.GuiSlider|setCurrentValue|(D)V
+      @|com\example\timermod\GuiSlider.java|4980|4985|value|param|com.example.timermod.GuiSlider|setCurrentValue|(D)V|value|0
+      @|com\example\timermod\GuiSlider.java|5002|5014|currentValue|field|com.example.timermod.GuiSlider|currentValue
+      @|com\example\timermod\GuiSlider.java|5017|5021|Math|class|java.lang.Math
+      @|com\example\timermod\GuiSlider.java|5022|5025|max|method|java.lang.Math|max|(DD)D
+      @|com\example\timermod\GuiSlider.java|5026|5034|minValue|field|com.example.timermod.GuiSlider|minValue
+      @|com\example\timermod\GuiSlider.java|5036|5040|Math|class|java.lang.Math
+      @|com\example\timermod\GuiSlider.java|5041|5044|min|method|java.lang.Math|min|(DD)D
+      @|com\example\timermod\GuiSlider.java|5045|5053|maxValue|field|com.example.timermod.GuiSlider|maxValue
+      @|com\example\timermod\GuiSlider.java|5055|5060|value|param|com.example.timermod.GuiSlider|setCurrentValue|(D)V|value|0
+   Method End: setCurrentValue(D)V
+   Class Start: com.example.timermod.GuiSlider.SliderCallback
+      Method Start: onValueChanged(D)V
+         @|com\example\timermod\GuiSlider.java|5147|5161|onValueChanged|method|com.example.timermod.GuiSlider.SliderCallback|onValueChanged|(D)V
+         @|com\example\timermod\GuiSlider.java|5169|5174|value|param|com.example.timermod.GuiSlider.SliderCallback|onValueChanged|(D)V|value|0
+      Method End: onValueChanged(D)V
+   Class End  : com.example.timermod.GuiSlider.SliderCallback
+Class End  : com.example.timermod.GuiSlider
+endProcessing com\example\timermod\GuiSlider.java
+
+processing com\example\timermod\MixinLoader.java
+@|com\example\timermod\MixinLoader.java|8|28|com.example.timermod|package|com.example.timermod|(file)
+Class Start: com.example.timermod.MixinLoader
+   Method Start: MixinLoader()V
+      @|com\example\timermod\MixinLoader.java|330|341|MixinLoader|method|com.example.timermod.MixinLoader|MixinLoader|()V
+      @|com\example\timermod\MixinLoader.java|354|368|MixinBootstrap|class|org.spongepowered.asm.launch.MixinBootstrap
+      @|com\example\timermod\MixinLoader.java|369|373|init|method|org.spongepowered.asm.launch.MixinBootstrap|init|()V
+      @|com\example\timermod\MixinLoader.java|385|391|Mixins|class|org.spongepowered.asm.mixin.Mixins
+      @|com\example\timermod\MixinLoader.java|392|408|addConfiguration|method|org.spongepowered.asm.mixin.Mixins|addConfiguration|(Ljava/lang/String;)V
+      @|com\example\timermod\MixinLoader.java|442|458|MixinEnvironment|class|org.spongepowered.asm.mixin.MixinEnvironment
+      @|com\example\timermod\MixinLoader.java|459|480|getDefaultEnvironment|method|org.spongepowered.asm.mixin.MixinEnvironment|getDefaultEnvironment|()Lorg/spongepowered/asm/mixin/MixinEnvironment;
+      @|com\example\timermod\MixinLoader.java|483|504|setObfuscationContext|method|org.spongepowered.asm.mixin.MixinEnvironment|setObfuscationContext|(Ljava/lang/String;)V
+   Method End: MixinLoader()V
+   Method Start: getASMTransformerClass()[Ljava/lang/String;
+      @|com\example\timermod\MixinLoader.java|557|579|getASMTransformerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getASMTransformerClass|()[Ljava/lang/String;
+      @|com\example\timermod\MixinLoader.java|548|554|String|class|java.lang.String
+      @|com\example\timermod\MixinLoader.java|603|609|String|class|java.lang.String
+   Method End: getASMTransformerClass()[Ljava/lang/String;
+   Method Start: getModContainerClass()Ljava/lang/String;
+      @|com\example\timermod\MixinLoader.java|653|673|getModContainerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getModContainerClass|()Ljava/lang/String;
+      @|com\example\timermod\MixinLoader.java|646|652|String|class|java.lang.String
+   Method End: getModContainerClass()Ljava/lang/String;
+   Method Start: getSetupClass()Ljava/lang/String;
+      @|com\example\timermod\MixinLoader.java|738|751|getSetupClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getSetupClass|()Ljava/lang/String;
+      @|com\example\timermod\MixinLoader.java|731|737|String|class|java.lang.String
+   Method End: getSetupClass()Ljava/lang/String;
+   Method Start: injectData(Ljava/util/Map;)V
+      @|com\example\timermod\MixinLoader.java|814|824|injectData|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|injectData|(Ljava/util/Map;)V
+      @|com\example\timermod\MixinLoader.java|829|835|String|class|java.lang.String
+      @|com\example\timermod\MixinLoader.java|837|843|Object|class|java.lang.Object
+      @|com\example\timermod\MixinLoader.java|825|828|Map|class|java.util.Map
+      @|com\example\timermod\MixinLoader.java|845|849|data|param|com.example.timermod.MixinLoader|injectData|(Ljava/util/Map;)V|data|0
+   Method End: injectData(Ljava/util/Map;)V
+   Method Start: getAccessTransformerClass()Ljava/lang/String;
+      @|com\example\timermod\MixinLoader.java|892|917|getAccessTransformerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getAccessTransformerClass|()Ljava/lang/String;
+      @|com\example\timermod\MixinLoader.java|885|891|String|class|java.lang.String
+   Method End: getAccessTransformerClass()Ljava/lang/String;
+Class End  : com.example.timermod.MixinLoader
+endProcessing com\example\timermod\MixinLoader.java
+
+processing com\example\timermod\TimerMod.java
+@|com\example\timermod\TimerMod.java|8|28|com.example.timermod|package|com.example.timermod|(file)
+Class Start: com.example.timermod.TimerMod
+   @|com\example\timermod\TimerMod.java|781|787|String|class|java.lang.String
+   @|com\example\timermod\TimerMod.java|788|793|MODID|field|com.example.timermod.TimerMod|MODID|
+   @|com\example\timermod\TimerMod.java|832|838|String|class|java.lang.String
+   @|com\example\timermod\TimerMod.java|839|846|VERSION|field|com.example.timermod.TimerMod|VERSION|
+   @|com\example\timermod\TimerMod.java|877|888|TimerModule|class|com.example.timermod.TimerModule
+   @|com\example\timermod\TimerMod.java|889|900|timerModule|field|com.example.timermod.TimerMod|timerModule|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\example\timermod\TimerMod.java|964|971|preInit|method|com.example.timermod.TimerMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\example\timermod\TimerMod.java|972|997|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\example\timermod\TimerMod.java|998|1003|event|param|com.example.timermod.TimerMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\example\timermod\TimerMod.java|1015|1021|Config|class|com.example.timermod.Config
+      @|com\example\timermod\TimerMod.java|1022|1026|load|method|com.example.timermod.Config|load|(Ljava/io/File;)V
+      @|com\example\timermod\TimerMod.java|1031|1035|File|class|java.io.File
+      @|com\example\timermod\TimerMod.java|1036|1041|event|param|com.example.timermod.TimerMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\example\timermod\TimerMod.java|1042|1070|getModConfigurationDirectory|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModConfigurationDirectory|()Ljava/io/File;
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\example\timermod\TimerMod.java|1160|1164|init|method|com.example.timermod.TimerMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\example\timermod\TimerMod.java|1165|1187|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\example\timermod\TimerMod.java|1188|1193|event|param|com.example.timermod.TimerMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\example\timermod\TimerMod.java|1205|1216|timerModule|field|com.example.timermod.TimerMod|timerModule
+      @|com\example\timermod\TimerMod.java|1223|1234|TimerModule|class|com.example.timermod.TimerModule
+      @|com\example\timermod\TimerMod.java|1246|1260|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\example\timermod\TimerMod.java|1261|1270|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\example\timermod\TimerMod.java|1271|1279|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\example\timermod\TimerMod.java|1357|1369|onClientTick|method|com.example.timermod.TimerMod|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\example\timermod\TimerMod.java|1370|1395|TickEvent.ClientTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent
+      @|com\example\timermod\TimerMod.java|1396|1401|event|param|com.example.timermod.TimerMod|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\example\timermod\TimerMod.java|1417|1422|event|param|com.example.timermod.TimerMod|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\example\timermod\TimerMod.java|1423|1428|phase|field|net.minecraftforge.fml.common.gameevent.TickEvent|phase
+      @|com\example\timermod\TimerMod.java|1432|1447|TickEvent.Phase|class|net.minecraftforge.fml.common.gameevent.TickEvent.Phase
+      @|com\example\timermod\TimerMod.java|1448|1451|END|field|net.minecraftforge.fml.common.gameevent.TickEvent.Phase|END
+      @|com\example\timermod\TimerMod.java|1455|1464|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\example\timermod\TimerMod.java|1465|1477|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\example\timermod\TimerMod.java|1480|1489|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\example\timermod\TimerMod.java|1513|1524|timerModule|field|com.example.timermod.TimerMod|timerModule
+      @|com\example\timermod\TimerMod.java|1525|1533|onUpdate|method|com.example.timermod.TimerModule|onUpdate|()V
+   Method End: onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+Class End  : com.example.timermod.TimerMod
+endProcessing com\example\timermod\TimerMod.java
+
+processing com\example\timermod\TimerModule.java
+@|com\example\timermod\TimerModule.java|8|28|com.example.timermod|package|com.example.timermod|(file)
+Class Start: com.example.timermod.TimerModule
+   @|com\example\timermod\TimerModule.java|478|487|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\example\timermod\TimerModule.java|488|490|mc|field|com.example.timermod.TimerModule|mc|
+   @|com\example\timermod\TimerModule.java|493|502|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\example\timermod\TimerModule.java|503|515|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|com\example\timermod\TimerModule.java|544|551|enabled|field|com.example.timermod.TimerModule|enabled|
+   @|com\example\timermod\TimerModule.java|580|585|speed|field|com.example.timermod.TimerModule|speed|
+   @|com\example\timermod\TimerModule.java|612|620|minSpeed|field|com.example.timermod.TimerModule|minSpeed|
+   @|com\example\timermod\TimerModule.java|653|661|maxSpeed|field|com.example.timermod.TimerModule|maxSpeed|
+   @|com\example\timermod\TimerModule.java|694|703|increment|field|com.example.timermod.TimerModule|increment|
+   @|com\example\timermod\TimerModule.java|729|738|GuiConfig|class|com.example.timermod.GuiConfig
+   @|com\example\timermod\TimerModule.java|739|748|guiConfig|field|com.example.timermod.TimerModule|guiConfig|
+   @|com\example\timermod\TimerModule.java|762|768|Thread|class|java.lang.Thread
+   @|com\example\timermod\TimerModule.java|769|780|inputThread|field|com.example.timermod.TimerModule|inputThread|
+   @|com\example\timermod\TimerModule.java|811|818|running|field|com.example.timermod.TimerModule|running|
+   @|com\example\timermod\TimerModule.java|856|875|waitingForToggleKey|field|com.example.timermod.TimerModule|waitingForToggleKey|
+   @|com\example\timermod\TimerModule.java|914|930|waitingForGuiKey|field|com.example.timermod.TimerModule|waitingForGuiKey|
+   Method Start: TimerModule()V
+      @|com\example\timermod\TimerModule.java|952|963|TimerModule|method|com.example.timermod.TimerModule|TimerModule|()V
+      @|com\example\timermod\TimerModule.java|1015|1020|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|1023|1029|Config|class|com.example.timermod.Config
+      @|com\example\timermod\TimerModule.java|1030|1038|getSpeed|method|com.example.timermod.Config|getSpeed|()D
+      @|com\example\timermod\TimerModule.java|1050|1066|startInputThread|method|com.example.timermod.TimerModule|startInputThread|()V
+   Method End: TimerModule()V
+   Method Start: startInputThread()V
+      @|com\example\timermod\TimerModule.java|1094|1110|startInputThread|method|com.example.timermod.TimerModule|startInputThread|()V
+      @|com\example\timermod\TimerModule.java|1123|1134|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|1141|1147|Thread|class|java.lang.Thread
+      @|com\example\timermod\TimerModule.java|5701|5712|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|5713|5722|setDaemon|method|java.lang.Thread|setDaemon|(Z)V
+      @|com\example\timermod\TimerModule.java|5738|5749|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|5750|5757|setName|method|java.lang.Thread|setName|(Ljava/lang/String;)V
+      @|com\example\timermod\TimerModule.java|5787|5798|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|5799|5804|start|method|java.lang.Thread|start|()V
+   Method End: startInputThread()V
+   Method Start: stop()V
+      @|com\example\timermod\TimerModule.java|5831|5835|stop|method|com.example.timermod.TimerModule|stop|()V
+      @|com\example\timermod\TimerModule.java|5848|5855|running|field|com.example.timermod.TimerModule|running
+      @|com\example\timermod\TimerModule.java|5877|5888|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|5912|5923|inputThread|field|com.example.timermod.TimerModule|inputThread
+      @|com\example\timermod\TimerModule.java|5924|5933|interrupt|method|java.lang.Thread|interrupt|()V
+   Method End: stop()V
+   Method Start: toggle()V
+      @|com\example\timermod\TimerModule.java|5970|5976|toggle|method|com.example.timermod.TimerModule|toggle|()V
+      @|com\example\timermod\TimerModule.java|5989|5996|enabled|field|com.example.timermod.TimerModule|enabled
+      @|com\example\timermod\TimerModule.java|6000|6007|enabled|field|com.example.timermod.TimerModule|enabled
+      @|com\example\timermod\TimerModule.java|6022|6029|enabled|field|com.example.timermod.TimerModule|enabled
+      @|com\example\timermod\TimerModule.java|6045|6055|resetTimer|method|com.example.timermod.TimerModule|resetTimer|()V
+   Method End: toggle()V
+   Method Start: onUpdate()V
+      @|com\example\timermod\TimerModule.java|6092|6100|onUpdate|method|com.example.timermod.TimerModule|onUpdate|()V
+      @|com\example\timermod\TimerModule.java|6118|6125|enabled|field|com.example.timermod.TimerModule|enabled
+      @|com\example\timermod\TimerModule.java|6147|6149|mc|field|com.example.timermod.TimerModule|mc
+      @|com\example\timermod\TimerModule.java|6150|6163|currentScreen|field|net.minecraft.client.Minecraft|currentScreen
+      @|com\example\timermod\TimerModule.java|6175|6184|GuiConfig|class|com.example.timermod.GuiConfig
+      @|com\example\timermod\TimerModule.java|6200|6210|resetTimer|method|com.example.timermod.TimerModule|resetTimer|()V
+      @|com\example\timermod\TimerModule.java|6254|6272|IAccessorMinecraft|class|com.example.timermod.mixin.IAccessorMinecraft
+      @|com\example\timermod\TimerModule.java|6274|6276|mc|field|com.example.timermod.TimerModule|mc
+      @|com\example\timermod\TimerModule.java|6278|6286|getTimer|method|com.example.timermod.mixin.IAccessorMinecraft|getTimer|()Lnet/minecraft/util/Timer;
+      @|com\example\timermod\TimerModule.java|6289|6299|timerSpeed|field|net.minecraft.util.Timer|timerSpeed
+      @|com\example\timermod\TimerModule.java|6310|6315|speed|field|com.example.timermod.TimerModule|speed
+   Method End: onUpdate()V
+   Method Start: resetTimer()V
+      @|com\example\timermod\TimerModule.java|6340|6350|resetTimer|method|com.example.timermod.TimerModule|resetTimer|()V
+      @|com\example\timermod\TimerModule.java|6365|6383|IAccessorMinecraft|class|com.example.timermod.mixin.IAccessorMinecraft
+      @|com\example\timermod\TimerModule.java|6385|6387|mc|field|com.example.timermod.TimerModule|mc
+      @|com\example\timermod\TimerModule.java|6389|6397|getTimer|method|com.example.timermod.mixin.IAccessorMinecraft|getTimer|()Lnet/minecraft/util/Timer;
+      @|com\example\timermod\TimerModule.java|6400|6410|timerSpeed|field|net.minecraft.util.Timer|timerSpeed
+   Method End: resetTimer()V
+   Method Start: increaseSpeed()V
+      @|com\example\timermod\TimerModule.java|6442|6455|increaseSpeed|method|com.example.timermod.TimerModule|increaseSpeed|()V
+      @|com\example\timermod\TimerModule.java|6468|6473|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6476|6480|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|6481|6484|min|method|java.lang.Math|min|(DD)D
+      @|com\example\timermod\TimerModule.java|6485|6490|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6493|6502|increment|field|com.example.timermod.TimerModule|increment
+      @|com\example\timermod\TimerModule.java|6504|6512|maxSpeed|field|com.example.timermod.TimerModule|maxSpeed
+      @|com\example\timermod\TimerModule.java|6523|6528|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6531|6535|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|6536|6541|round|method|java.lang.Math|round|(D)J
+      @|com\example\timermod\TimerModule.java|6542|6547|speed|field|com.example.timermod.TimerModule|speed
+   Method End: increaseSpeed()V
+   Method Start: decreaseSpeed()V
+      @|com\example\timermod\TimerModule.java|6589|6602|decreaseSpeed|method|com.example.timermod.TimerModule|decreaseSpeed|()V
+      @|com\example\timermod\TimerModule.java|6615|6620|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6623|6627|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|6628|6631|max|method|java.lang.Math|max|(DD)D
+      @|com\example\timermod\TimerModule.java|6632|6637|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6640|6649|increment|field|com.example.timermod.TimerModule|increment
+      @|com\example\timermod\TimerModule.java|6651|6659|minSpeed|field|com.example.timermod.TimerModule|minSpeed
+      @|com\example\timermod\TimerModule.java|6670|6675|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6678|6682|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|6683|6688|round|method|java.lang.Math|round|(D)J
+      @|com\example\timermod\TimerModule.java|6689|6694|speed|field|com.example.timermod.TimerModule|speed
+   Method End: decreaseSpeed()V
+   Method Start: isEnabled()Z
+      @|com\example\timermod\TimerModule.java|6739|6748|isEnabled|method|com.example.timermod.TimerModule|isEnabled|()Z
+      @|com\example\timermod\TimerModule.java|6768|6775|enabled|field|com.example.timermod.TimerModule|enabled
+   Method End: isEnabled()Z
+   Method Start: getSpeed()D
+      @|com\example\timermod\TimerModule.java|6802|6810|getSpeed|method|com.example.timermod.TimerModule|getSpeed|()D
+      @|com\example\timermod\TimerModule.java|6830|6835|speed|field|com.example.timermod.TimerModule|speed
+   Method End: getSpeed()D
+   Method Start: setSpeed(D)V
+      @|com\example\timermod\TimerModule.java|6860|6868|setSpeed|method|com.example.timermod.TimerModule|setSpeed|(D)V
+      @|com\example\timermod\TimerModule.java|6876|6881|speed|param|com.example.timermod.TimerModule|setSpeed|(D)V|speed|0
+      @|com\example\timermod\TimerModule.java|6898|6903|speed|field|com.example.timermod.TimerModule|speed
+      @|com\example\timermod\TimerModule.java|6906|6910|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|6911|6914|max|method|java.lang.Math|max|(DD)D
+      @|com\example\timermod\TimerModule.java|6915|6923|minSpeed|field|com.example.timermod.TimerModule|minSpeed
+      @|com\example\timermod\TimerModule.java|6925|6929|Math|class|java.lang.Math
+      @|com\example\timermod\TimerModule.java|6930|6933|min|method|java.lang.Math|min|(DD)D
+      @|com\example\timermod\TimerModule.java|6934|6942|maxSpeed|field|com.example.timermod.TimerModule|maxSpeed
+      @|com\example\timermod\TimerModule.java|6944|6949|speed|param|com.example.timermod.TimerModule|setSpeed|(D)V|speed|0
+      @|com\example\timermod\TimerModule.java|6961|6967|Config|class|com.example.timermod.Config
+      @|com\example\timermod\TimerModule.java|6968|6976|setSpeed|method|com.example.timermod.Config|setSpeed|(D)V
+      @|com\example\timermod\TimerModule.java|6982|6987|speed|field|com.example.timermod.TimerModule|speed
+   Method End: setSpeed(D)V
+   Method Start: getMinSpeed()D
+      @|com\example\timermod\TimerModule.java|7033|7044|getMinSpeed|method|com.example.timermod.TimerModule|getMinSpeed|()D
+      @|com\example\timermod\TimerModule.java|7064|7072|minSpeed|field|com.example.timermod.TimerModule|minSpeed
+   Method End: getMinSpeed()D
+   Method Start: getMaxSpeed()D
+      @|com\example\timermod\TimerModule.java|7099|7110|getMaxSpeed|method|com.example.timermod.TimerModule|getMaxSpeed|()D
+      @|com\example\timermod\TimerModule.java|7130|7138|maxSpeed|field|com.example.timermod.TimerModule|maxSpeed
+   Method End: getMaxSpeed()D
+   Method Start: getIncrement()D
+      @|com\example\timermod\TimerModule.java|7165|7177|getIncrement|method|com.example.timermod.TimerModule|getIncrement|()D
+      @|com\example\timermod\TimerModule.java|7197|7206|increment|field|com.example.timermod.TimerModule|increment
+   Method End: getIncrement()D
+   Method Start: setGuiConfig(Lcom/example/timermod/GuiConfig;)V
+      @|com\example\timermod\TimerModule.java|7231|7243|setGuiConfig|method|com.example.timermod.TimerModule|setGuiConfig|(Lcom/example/timermod/GuiConfig;)V
+      @|com\example\timermod\TimerModule.java|7244|7253|GuiConfig|class|com.example.timermod.GuiConfig
+      @|com\example\timermod\TimerModule.java|7254|7257|gui|param|com.example.timermod.TimerModule|setGuiConfig|(Lcom/example/timermod/GuiConfig;)V|gui|0
+      @|com\example\timermod\TimerModule.java|7274|7283|guiConfig|field|com.example.timermod.TimerModule|guiConfig
+      @|com\example\timermod\TimerModule.java|7286|7289|gui|param|com.example.timermod.TimerModule|setGuiConfig|(Lcom/example/timermod/GuiConfig;)V|gui|0
+   Method End: setGuiConfig(Lcom/example/timermod/GuiConfig;)V
+   Method Start: setWaitingForToggleKey(Z)V
+      @|com\example\timermod\TimerModule.java|7318|7340|setWaitingForToggleKey|method|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V
+      @|com\example\timermod\TimerModule.java|7349|7356|waiting|param|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V|waiting|0
+      @|com\example\timermod\TimerModule.java|7373|7392|waitingForToggleKey|field|com.example.timermod.TimerModule|waitingForToggleKey
+      @|com\example\timermod\TimerModule.java|7395|7402|waiting|param|com.example.timermod.TimerModule|setWaitingForToggleKey|(Z)V|waiting|0
+   Method End: setWaitingForToggleKey(Z)V
+   Method Start: setWaitingForGuiKey(Z)V
+      @|com\example\timermod\TimerModule.java|7431|7450|setWaitingForGuiKey|method|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V
+      @|com\example\timermod\TimerModule.java|7459|7466|waiting|param|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V|waiting|0
+      @|com\example\timermod\TimerModule.java|7483|7499|waitingForGuiKey|field|com.example.timermod.TimerModule|waitingForGuiKey
+      @|com\example\timermod\TimerModule.java|7502|7509|waiting|param|com.example.timermod.TimerModule|setWaitingForGuiKey|(Z)V|waiting|0
+   Method End: setWaitingForGuiKey(Z)V
+   Method Start: isWaitingForToggleKey()Z
+      @|com\example\timermod\TimerModule.java|7541|7562|isWaitingForToggleKey|method|com.example.timermod.TimerModule|isWaitingForToggleKey|()Z
+      @|com\example\timermod\TimerModule.java|7582|7601|waitingForToggleKey|field|com.example.timermod.TimerModule|waitingForToggleKey
+   Method End: isWaitingForToggleKey()Z
+   Method Start: isWaitingForGuiKey()Z
+      @|com\example\timermod\TimerModule.java|7633|7651|isWaitingForGuiKey|method|com.example.timermod.TimerModule|isWaitingForGuiKey|()Z
+      @|com\example\timermod\TimerModule.java|7671|7687|waitingForGuiKey|field|com.example.timermod.TimerModule|waitingForGuiKey
+   Method End: isWaitingForGuiKey()Z
+Class End  : com.example.timermod.TimerModule
+endProcessing com\example\timermod\TimerModule.java
+
+processing com\example\timermod\mixin\IAccessorMinecraft.java
+@|com\example\timermod\mixin\IAccessorMinecraft.java|8|34|com.example.timermod.mixin|package|com.example.timermod.mixin|(file)
+Class Start: com.example.timermod.mixin.IAccessorMinecraft
+   Method Start: getTimer()Lnet/minecraft/util/Timer;
+      @|com\example\timermod\mixin\IAccessorMinecraft.java|417|425|getTimer|method|com.example.timermod.mixin.IAccessorMinecraft|getTimer|()Lnet/minecraft/util/Timer;
+      @|com\example\timermod\mixin\IAccessorMinecraft.java|411|416|Timer|class|net.minecraft.util.Timer
+   Method End: getTimer()Lnet/minecraft/util/Timer;
+Class End  : com.example.timermod.mixin.IAccessorMinecraft
+endProcessing com\example\timermod\mixin\IAccessorMinecraft.java
+
