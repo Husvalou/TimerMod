@@ -33442,134 +33442,124 @@ Adding 0 imports
 End  Processing: com\example\timermod\Config.java
 
 Start Processing: com\example\timermod\GuiConfig.java
-Rename class net/minecraft/client/gui/GuiButton[476,485]::GuiButton->GuiButton
-Rename class net/minecraft/client/gui/GuiButton[547,556]::GuiButton->GuiButton
-Rename class net/minecraft/client/gui/GuiButton[582,591]::GuiButton->GuiButton
-Rename class net/minecraft/client/gui/GuiButton[621,630]::GuiButton->GuiButton
+Rename class net/minecraft/client/gui/GuiButton[511,520]::GuiButton->GuiButton
+Rename class net/minecraft/client/gui/GuiButton[546,555]::GuiButton->GuiButton
+Rename class net/minecraft/client/gui/GuiButton[585,594]::GuiButton->GuiButton
 [method, com/example/timermod/GuiConfig/GuiConfig, (Lcom/example/timermod/TimerModule;)V]
 FOUND CONSTR method com/example/timermod/GuiConfig/GuiConfig (Lcom/example/timermod/TimerModule;)V com/example/timermod/GuiConfig
-Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[797,804]::initGui->func_73866_w_
-Rename field net/minecraft/client/gui/GuiScreen/width[842,847]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[889,895]::height->field_146295_m
-Rename class net/minecraft/client/gui/GuiButton[937,946]::GuiButton->GuiButton
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[761,768]::initGui->func_73866_w_
+Rename field net/minecraft/client/gui/GuiScreen/width[806,811]::width->field_146294_l
+Rename field net/minecraft/client/gui/GuiScreen/height[853,859]::height->field_146295_m
 [method, com/example/timermod/TimerModule/getMinSpeed, ()D]
 [method, com/example/timermod/TimerModule/getMaxSpeed, ()D]
 [method, com/example/timermod/TimerModule/getSpeed, ()D]
 [method, com/example/timermod/TimerModule/getIncrement, ()D]
 [method, com/example/timermod/GuiSlider/SliderCallback/onValueChanged, (D)V]
 [method, com/example/timermod/TimerModule/setSpeed, (D)V]
-Rename class net/minecraft/client/gui/GuiButton[1469,1478]::GuiButton->GuiButton
+Rename class net/minecraft/client/gui/GuiButton[1331,1340]::GuiButton->GuiButton
 [method, com/example/timermod/Config/getKeyName, (I)Ljava/lang/String;]
 [method, com/example/timermod/Config/getToggleKey, ()I]
-Rename class net/minecraft/client/gui/GuiButton[1606,1615]::GuiButton->GuiButton
+Rename class net/minecraft/client/gui/GuiButton[1468,1477]::GuiButton->GuiButton
 [method, com/example/timermod/Config/getKeyName, (I)Ljava/lang/String;]
 [method, com/example/timermod/Config/getGuiKey, ()I]
-Rename class net/minecraft/client/gui/GuiButton[1746,1755]::GuiButton->GuiButton
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[1820,1830]::buttonList->field_146292_n
+Rename class net/minecraft/client/gui/GuiButton[1608,1617]::GuiButton->GuiButton
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[1682,1692]::buttonList->field_146292_n
 [method, java/util/Collection/add, (Ljava/lang/Object;)Z]
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[1867,1877]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[1728,1738]::buttonList->field_146292_n
 [method, java/util/Collection/add, (Ljava/lang/Object;)Z]
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[1913,1923]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[1778,1788]::buttonList->field_146292_n
 [method, java/util/Collection/add, (Ljava/lang/Object;)Z]
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[1963,1973]::buttonList->field_146292_n
-[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[2010,2020]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[1825,1835]::buttonList->field_146292_n
 [method, java/util/Collection/add, (Ljava/lang/Object;)Z]
 [method, com/example/timermod/GuiConfig/updateButtonText, ()V]
-Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[2112,2127]::actionPerformed->func_146284_a
-Rename class net/minecraft/client/gui/GuiButton[2126,2135]::GuiButton->GuiButton
-Rename field net/minecraft/client/gui/GuiButton/id[2165,2167]::id->field_146127_k
-[method, com/example/timermod/TimerModule/toggle, ()V]
-Rename field net/minecraft/client/gui/GuiButton/id[2242,2244]::id->field_146127_k
-Rename field net/minecraft/client/gui/GuiScreen/mc[2277,2279]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[2292,2308]::displayGuiScreen->func_147108_a
-Rename field net/minecraft/client/gui/GuiButton/id[2339,2341]::id->field_146127_k
+Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[1927,1942]::actionPerformed->func_146284_a
+Rename class net/minecraft/client/gui/GuiButton[1941,1950]::GuiButton->GuiButton
+Rename field net/minecraft/client/gui/GuiButton/id[1980,1982]::id->field_146127_k
+Rename field net/minecraft/client/gui/GuiScreen/mc[2015,2017]::mc->field_146297_k
+Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[2030,2046]::displayGuiScreen->func_147108_a
+Rename field net/minecraft/client/gui/GuiButton/id[2077,2079]::id->field_146127_k
 [method, com/example/timermod/TimerModule/setWaitingForToggleKey, (Z)V]
-Rename field net/minecraft/client/gui/GuiButton/displayString[2471,2484]::displayString->field_146126_j
-Rename field net/minecraft/client/gui/GuiButton/id[2534,2536]::id->field_146127_k
+Rename field net/minecraft/client/gui/GuiButton/displayString[2209,2222]::displayString->field_146126_j
+Rename field net/minecraft/client/gui/GuiButton/id[2272,2274]::id->field_146127_k
 [method, com/example/timermod/TimerModule/setWaitingForGuiKey, (Z)V]
-Rename field net/minecraft/client/gui/GuiButton/displayString[2660,2673]::displayString->field_146126_j
+Rename field net/minecraft/client/gui/GuiButton/displayString[2398,2411]::displayString->field_146126_j
 [method, com/example/timermod/GuiConfig/updateButtonText, ()V]
 [method, com/example/timermod/GuiConfig/updateButtonText, ()V]
-Rename field net/minecraft/client/gui/GuiButton/displayString[2801,2814]::displayString->field_146126_j
-[method, com/example/timermod/TimerModule/isEnabled, ()Z]
-No rename for field net/minecraft/client/gui/GuiButton/packedFGColour
-[method, com/example/timermod/TimerModule/isEnabled, ()Z]
 [method, com/example/timermod/TimerModule/isWaitingForToggleKey, ()Z]
-Rename field net/minecraft/client/gui/GuiButton/displayString[3028,3041]::displayString->field_146126_j
+Rename field net/minecraft/client/gui/GuiButton/displayString[2592,2605]::displayString->field_146126_j
 [method, com/example/timermod/Config/getKeyName, (I)Ljava/lang/String;]
 [method, com/example/timermod/Config/getToggleKey, ()I]
 [method, com/example/timermod/TimerModule/isWaitingForGuiKey, ()Z]
-Rename field net/minecraft/client/gui/GuiButton/displayString[3182,3195]::displayString->field_146126_j
+Rename field net/minecraft/client/gui/GuiButton/displayString[2746,2759]::displayString->field_146126_j
 [method, com/example/timermod/Config/getKeyName, (I)Ljava/lang/String;]
 [method, com/example/timermod/Config/getGuiKey, ()I]
-Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[3299,3311]::updateScreen->func_73876_c
-Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[3330,3342]::updateScreen->func_73876_c
+Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[2863,2875]::updateScreen->func_73876_c
+Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[2894,2906]::updateScreen->func_73876_c
 [method, com/example/timermod/TimerModule/isWaitingForToggleKey, ()Z]
 [method, com/example/timermod/TimerModule/isWaitingForGuiKey, ()Z]
 [method, com/example/timermod/GuiConfig/updateButtonText, ()V]
-Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[3553,3563]::drawScreen->func_73863_a
-Rename method net/minecraft/client/gui/GuiScreen/drawDefaultBackground ()V[3625,3646]::drawDefaultBackground->func_146276_q_
-Rename class net/minecraft/client/renderer/GlStateManager[3669,3683]::GlStateManager->GlStateManager
-Rename method net/minecraft/client/renderer/GlStateManager/pushMatrix ()V[3684,3694]::pushMatrix->func_179094_E
-Rename class net/minecraft/client/renderer/GlStateManager[3709,3723]::GlStateManager->GlStateManager
-Rename method net/minecraft/client/renderer/GlStateManager/scale (FFF)V[3724,3729]::scale->func_179152_a
-Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[3770,3788]::drawCenteredString->func_73732_a
-Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[3788,3803]::fontRendererObj->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[3822,3827]::width->field_146294_l
-Rename class net/minecraft/client/renderer/GlStateManager[3865,3879]::GlStateManager->GlStateManager
-Rename method net/minecraft/client/renderer/GlStateManager/popMatrix ()V[3880,3889]::popMatrix->func_179121_F
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[3117,3127]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/GuiScreen/drawDefaultBackground ()V[3189,3210]::drawDefaultBackground->func_146276_q_
+Rename class net/minecraft/client/renderer/GlStateManager[3233,3247]::GlStateManager->GlStateManager
+Rename method net/minecraft/client/renderer/GlStateManager/pushMatrix ()V[3248,3258]::pushMatrix->func_179094_E
+Rename class net/minecraft/client/renderer/GlStateManager[3273,3287]::GlStateManager->GlStateManager
+Rename method net/minecraft/client/renderer/GlStateManager/scale (FFF)V[3288,3293]::scale->func_179152_a
+Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[3334,3352]::drawCenteredString->func_73732_a
+Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[3352,3367]::fontRendererObj->field_146289_q
+Rename field net/minecraft/client/gui/GuiScreen/width[3386,3391]::width->field_146294_l
+Rename class net/minecraft/client/renderer/GlStateManager[3429,3443]::GlStateManager->GlStateManager
+Rename method net/minecraft/client/renderer/GlStateManager/popMatrix ()V[3444,3453]::popMatrix->func_179121_F
 [method, com/example/timermod/Config/getKeyName, (I)Ljava/lang/String;]
 [method, com/example/timermod/Config/getToggleKey, ()I]
 [method, com/example/timermod/Config/getKeyName, (I)Ljava/lang/String;]
 [method, com/example/timermod/Config/getGuiKey, ()I]
-Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[4076,4094]::drawCenteredString->func_73732_a
-Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[4094,4109]::fontRendererObj->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[4217,4222]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[4242,4248]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/width[4373,4378]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[4422,4428]::height->field_146295_m
-Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[4615,4623]::drawRect->func_73734_a
+Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[3640,3658]::drawCenteredString->func_73732_a
+Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[3658,3673]::fontRendererObj->field_146289_q
+Rename field net/minecraft/client/gui/GuiScreen/width[3781,3786]::width->field_146294_l
+Rename field net/minecraft/client/gui/GuiScreen/height[3806,3812]::height->field_146295_m
+Rename field net/minecraft/client/gui/GuiScreen/width[3937,3942]::width->field_146294_l
+Rename field net/minecraft/client/gui/GuiScreen/height[3986,3992]::height->field_146295_m
+Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[4179,4187]::drawRect->func_73734_a
 [method, com/example/timermod/GuiConfig/interpolateColor, (IIF)I]
-Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[5102,5110]::drawRect->func_73734_a
+Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[4666,4674]::drawRect->func_73734_a
 [method, com/example/timermod/GuiConfig/interpolateColor, (IIF)I]
-Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[5448,5456]::drawRect->func_73734_a
+Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[5012,5020]::drawRect->func_73734_a
 [method, com/example/timermod/GuiConfig/interpolateColor, (IIF)I]
-Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[5824,5832]::drawRect->func_73734_a
+Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[5388,5396]::drawRect->func_73734_a
 [method, com/example/timermod/GuiConfig/interpolateColor, (IIF)I]
-Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[6171,6179]::drawRect->func_73734_a
-Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[6347,6357]::drawString->func_73731_b
-Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[6365,6380]::fontRendererObj->field_146289_q
-Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[6453,6463]::drawString->func_73731_b
-Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[6471,6486]::fontRendererObj->field_146289_q
-Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[6565,6575]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[5735,5743]::drawRect->func_73734_a
+Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[5911,5921]::drawString->func_73731_b
+Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[5929,5944]::fontRendererObj->field_146289_q
+Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[6017,6027]::drawString->func_73731_b
+Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[6035,6050]::fontRendererObj->field_146289_q
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[6129,6139]::drawScreen->func_73863_a
 [method, com/example/timermod/GuiConfig/interpolateColor, (IIF)I]
-Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[7083,7091]::keyTyped->func_73869_a
-Rename field net/minecraft/client/gui/GuiScreen/mc[7185,7187]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[7200,7216]::displayGuiScreen->func_147108_a
-Rename method net/minecraft/client/gui/GuiScreen/doesGuiPauseGame ()Z[7271,7287]::doesGuiPauseGame->func_73868_f
-Rename method net/minecraft/client/gui/GuiScreen/handleMouseInput ()V[7347,7363]::handleMouseInput->func_146274_d
-Rename method net/minecraft/client/gui/GuiScreen/handleMouseInput ()V[7397,7413]::handleMouseInput->func_146274_d
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[6647,6655]::keyTyped->func_73869_a
+Rename field net/minecraft/client/gui/GuiScreen/mc[6749,6751]::mc->field_146297_k
+Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[6764,6780]::displayGuiScreen->func_147108_a
+Rename method net/minecraft/client/gui/GuiScreen/doesGuiPauseGame ()Z[6835,6851]::doesGuiPauseGame->func_73868_f
+Rename method net/minecraft/client/gui/GuiScreen/handleMouseInput ()V[6911,6927]::handleMouseInput->func_146274_d
+Rename method net/minecraft/client/gui/GuiScreen/handleMouseInput ()V[6961,6977]::handleMouseInput->func_146274_d
 [method, java/lang/Throwable/printStackTrace, ()V]
 [method, org/lwjgl/input/Mouse/getEventX, ()I]
-Rename field net/minecraft/client/gui/GuiScreen/width[7546,7551]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/mc[7568,7570]::mc->field_146297_k
-Rename field net/minecraft/client/Minecraft/displayWidth[7583,7595]::displayWidth->field_71443_c
-Rename field net/minecraft/client/gui/GuiScreen/height[7624,7630]::height->field_146295_m
+Rename field net/minecraft/client/gui/GuiScreen/width[7110,7115]::width->field_146294_l
+Rename field net/minecraft/client/gui/GuiScreen/mc[7132,7134]::mc->field_146297_k
+Rename field net/minecraft/client/Minecraft/displayWidth[7147,7159]::displayWidth->field_71443_c
+Rename field net/minecraft/client/gui/GuiScreen/height[7188,7194]::height->field_146295_m
 [method, org/lwjgl/input/Mouse/getEventY, ()I]
-Rename field net/minecraft/client/gui/GuiScreen/height[7666,7672]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/mc[7688,7690]::mc->field_146297_k
-Rename field net/minecraft/client/Minecraft/displayHeight[7703,7716]::displayHeight->field_71440_d
+Rename field net/minecraft/client/gui/GuiScreen/height[7230,7236]::height->field_146295_m
+Rename field net/minecraft/client/gui/GuiScreen/mc[7252,7254]::mc->field_146297_k
+Rename field net/minecraft/client/Minecraft/displayHeight[7267,7280]::displayHeight->field_71440_d
 [method, org/lwjgl/input/Mouse/getEventButtonState, ()Z]
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[7846,7856]::buttonList->field_146292_n
-Rename method net/minecraft/client/gui/GuiButton/mousePressed (Lnet/minecraft/client/Minecraft;II)Z[8005,8017]::mousePressed->func_146116_c
-Rename field net/minecraft/client/gui/GuiScreen/mc[8024,8026]::mc->field_146297_k
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[7410,7420]::buttonList->field_146292_n
+Rename method net/minecraft/client/gui/GuiButton/mousePressed (Lnet/minecraft/client/Minecraft;II)Z[7569,7581]::mousePressed->func_146116_c
+Rename field net/minecraft/client/gui/GuiScreen/mc[7588,7590]::mc->field_146297_k
 [method, org/lwjgl/input/Mouse/getEventButton, ()I]
-Rename method net/minecraft/client/gui/GuiButton/mouseReleased (II)V[8359,8372]::mouseReleased->func_146118_a
-Rename method net/minecraft/client/gui/GuiScreen/mouseClickMove (IIIJ)V[8497,8511]::mouseClickMove->func_146273_a
-Rename method net/minecraft/client/gui/GuiButton/mouseDragged (Lnet/minecraft/client/Minecraft;II)V[8659,8671]::mouseDragged->func_146119_b
-Rename field net/minecraft/client/gui/GuiScreen/mc[8678,8680]::mc->field_146297_k
-Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[8758,8769]::onGuiClosed->func_146281_b
+Rename method net/minecraft/client/gui/GuiButton/mouseReleased (II)V[7923,7936]::mouseReleased->func_146118_a
+Rename method net/minecraft/client/gui/GuiScreen/mouseClickMove (IIIJ)V[8061,8075]::mouseClickMove->func_146273_a
+Rename method net/minecraft/client/gui/GuiButton/mouseDragged (Lnet/minecraft/client/Minecraft;II)V[8223,8235]::mouseDragged->func_146119_b
+Rename field net/minecraft/client/gui/GuiScreen/mc[8242,8244]::mc->field_146297_k
+Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[8322,8333]::onGuiClosed->func_146281_b
 [method, com/example/timermod/TimerModule/setGuiConfig, (Lcom/example/timermod/GuiConfig;)V]
 [method, com/example/timermod/TimerModule/isWaitingForToggleKey, ()Z]
 [method, com/example/timermod/TimerModule/setWaitingForToggleKey, (Z)V]
@@ -33708,14 +33698,16 @@ FOUND CONSTR method com/example/timermod/TimerModule/TimerModule ()V com/example
 [method, java/lang/Thread/interrupt, ()V]
 [method, com/example/timermod/TimerModule/toggle, ()V]
 [method, com/example/timermod/TimerModule/resetTimer, ()V]
+Rename field net/minecraft/client/Minecraft/thePlayer[6434,6443]::thePlayer->field_71439_g
+Rename method net/minecraft/entity/Entity/playSound (Ljava/lang/String;FF)V[6448,6457]::playSound->func_85030_a
 [method, com/example/timermod/TimerModule/onUpdate, ()V]
-Rename field net/minecraft/client/Minecraft/currentScreen[6434,6447]::currentScreen->field_71462_r
+Rename field net/minecraft/client/Minecraft/currentScreen[6662,6675]::currentScreen->field_71462_r
 [method, com/example/timermod/TimerModule/resetTimer, ()V]
 [method, com/example/timermod/mixin/IAccessorMinecraft/getTimer, ()Lnet/minecraft/util/Timer;]
-Rename field net/minecraft/util/Timer/timerSpeed[6573,6583]::timerSpeed->field_74278_d
+Rename field net/minecraft/util/Timer/timerSpeed[6801,6811]::timerSpeed->field_74278_d
 [method, com/example/timermod/TimerModule/resetTimer, ()V]
 [method, com/example/timermod/mixin/IAccessorMinecraft/getTimer, ()Lnet/minecraft/util/Timer;]
-Rename field net/minecraft/util/Timer/timerSpeed[6687,6697]::timerSpeed->field_74278_d
+Rename field net/minecraft/util/Timer/timerSpeed[6915,6925]::timerSpeed->field_74278_d
 [method, com/example/timermod/TimerModule/increaseSpeed, ()V]
 [method, java/lang/Math/min, (DD)D]
 [method, java/lang/Math/round, (D)J]

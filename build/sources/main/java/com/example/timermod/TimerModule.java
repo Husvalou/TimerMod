@@ -148,6 +148,13 @@ public class TimerModule {
         if (!enabled) {
             resetTimer();
         }
+        
+        // Play sound effect when toggling
+        try {
+            mc.thePlayer.playSound("random.click", 1.0F, 1.0F);
+        } catch (Exception e) {
+            // If sound fails, silently continue
+        }
     }
 
     public void onUpdate() {

@@ -4,19 +4,7 @@ WARNING: You are using an unsupported version of ForgeGradle.
 Please consider upgrading to ForgeGradle 5 and helping in the efforts to get old versions working on the modern toolchain.
 See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more info on contributing.
 :deobfCompileDummyTask
-:getVersionJson
-:extractUserdev UP-TO-DATE
-:downloadClient SKIPPED
-:downloadServer SKIPPED
-:splitServerJar SKIPPED
-:mergeJars SKIPPED
-:applyBinaryPatches SKIPPED
 :deobfProvidedDummyTask
-:extractDependencyATs SKIPPED
-:extractMcpData SKIPPED
-:extractMcpMappings SKIPPED
-:genSrgs SKIPPED
-:deobfMcMCP SKIPPED
 :sourceApiJava UP-TO-DATE
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
@@ -38,11 +26,16 @@ Note: Writing notch output SRGs to C:\Users\NotGr\Desktop\TimerMod\build\tmp\com
 :processResources UP-TO-DATE
 :classes
 :jar
-:sourceTestJava UP-TO-DATE
+:sourceTestJava
 :compileTestJava UP-TO-DATE
 :processTestResources UP-TO-DATE
 :testClasses UP-TO-DATE
 :test UP-TO-DATE
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
+:getVersionJson
+:extractUserdev UP-TO-DATE
+:genSrgs SKIPPED
 :reobfJar
 :extractRangemapReplacedMain
 C:\Users\NotGr\Desktop\TimerMod\build\sources\main\java
@@ -55,4 +48,4 @@ remapping source...
 
 BUILD SUCCESSFUL
 
-Total time: 6.049 secs
+Total time: 3.016 secs
