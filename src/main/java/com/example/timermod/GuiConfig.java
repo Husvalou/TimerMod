@@ -13,7 +13,6 @@ import java.io.IOException;
 @SideOnly(Side.CLIENT)
 public class GuiConfig extends GuiScreen {
     private final TimerModule timer;
-    private GuiButton toggleButton;
     private GuiSlider speedSlider;
     private GuiButton closeButton;
     private GuiButton toggleKeyButton;
@@ -29,8 +28,6 @@ public class GuiConfig extends GuiScreen {
         int centerX = this.width / 2;
         int centerY = this.height / 2;
 
-        toggleButton = new GuiButton(0, centerX - 100, centerY - 60, 200, 20, "Timer: OFF");
-        
         speedSlider = new GuiSlider(1, centerX - 100, centerY - 30, 200, 20, "Speed: ", 
             timer.getMinSpeed(), timer.getMaxSpeed(), timer.getSpeed(), timer.getIncrement(),
             new GuiSlider.SliderCallback() {
@@ -46,7 +43,6 @@ public class GuiConfig extends GuiScreen {
         
         closeButton = new GuiButton(3, centerX - 50, centerY + 60, 100, 20, "Close");
 
-        this.buttonList.add(toggleButton);
         this.buttonList.add(speedSlider);
         this.buttonList.add(toggleKeyButton);
         this.buttonList.add(guiKeyButton);
@@ -57,9 +53,7 @@ public class GuiConfig extends GuiScreen {
 
     @Override
     protected void actionPerformed(GuiButton button) {
-        if (button.id == 0) {
-            timer.toggle();
-        } else if (button.id == 3) {
+        if (button.id == 3) {
             mc.displayGuiScreen(null);
         } else if (button.id == 4) {
             // Start capturing toggle key
@@ -74,9 +68,6 @@ public class GuiConfig extends GuiScreen {
     }
 
     private void updateButtonText() {
-        toggleButton.displayString = timer.isEnabled() ? "Timer: ON" : "Timer: OFF";
-        toggleButton.packedFGColour = timer.isEnabled() ? 0x00FF00 : 0xFF0000;
-        
         if (!timer.isWaitingForToggleKey()) {
             toggleKeyButton.displayString = "Toggle Key: " + Config.getKeyName(Config.getToggleKey());
         }
